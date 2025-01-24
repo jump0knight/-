@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="ui" targetName="ui.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83d3c2e7-8b52-41f7-a238-0389cf16de2b" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="187" />
+        <option value="82" />
+        <option value="1159" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="名称" />
+        <option value="值" />
+        <option value="描述" />
+      </list>
+    </option>
+    <option name="loadedFiles">
+      <list>
+        <option value="D:\desktop_document\ui\STM32H750.svd" />
+      </list>
+    </option>
+    <option name="nodes">
+      <map>
+        <entry key="STM32H750.svd" value="-E" />
+        <entry key="STM32H750.svd|g:USART" value="-E" />
+        <entry key="STM32H750.svd|p:USART1" value="-E" />
+        <entry key="STM32H750.svd|p:USART1|BRR" value="HE" />
+        <entry key="STM32H750.svd|p:USART1|CR1" value="HC" />
+        <entry key="STM32H750.svd|p:USART1|CR2" value="HC" />
+        <entry key="STM32H750.svd|p:USART1|CR3" value="HC" />
+        <entry key="STM32H750.svd|p:USART1|GTPR" value="HC" />
+        <entry key="STM32H750.svd|p:USART1|ICR" value="HE" />
+        <entry key="STM32H750.svd|p:USART1|ISR" value="HC" />
+        <entry key="STM32H750.svd|p:USART1|PRESC" value="HC" />
+        <entry key="STM32H750.svd|p:USART1|RDR" value="HC" />
+        <entry key="STM32H750.svd|p:USART1|RQR" value="HE" />
+        <entry key="STM32H750.svd|p:USART1|RTOR" value="HC" />
+        <entry key="STM32H750.svd|p:USART1|TDR" value="HC" />
+      </map>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.4" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2s1IbkF1TnURBjAHcdnnQWTyh4Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake 应用程序.ui.elf.executor": "Run",
+    "OpenOCD 下载并运行.ui.elf.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/desktop_document/ui/STM32H750.svd",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.root",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.ui.elf">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ui.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ui" TARGET_NAME="ui.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ui" RUN_TARGET_NAME="ui.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ui.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ui" TARGET_NAME="ui.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="ui" RUN_TARGET_NAME="ui.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\desktop_document\ui\st-link.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.ui.elf" />
+      <item itemvalue="OpenOCD 下载并运行.ui.elf" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="83d3c2e7-8b52-41f7-a238-0389cf16de2b" name="更改" comment="" />
+      <created>1737616727603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737616727603</updated>
+      <workItem from="1737616728638" duration="2780000" />
+      <workItem from="1737619958225" duration="7927000" />
+      <workItem from="1737634028940" duration="513000" />
+      <workItem from="1737683865706" duration="13999000" />
+      <workItem from="1737708233330" duration="8705000" />
+      <workItem from="1737719164316" duration="13897000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="uart_rx_dma_buffer" language="ObjectiveC" />
+        <watch expression="usart_rb" language="ObjectiveC" />
+        <watch expression="ringbuffer_is_full" />
+        <watch expression="usart_read_buffer" />
+        <watch expression="usart_ringbuffer" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

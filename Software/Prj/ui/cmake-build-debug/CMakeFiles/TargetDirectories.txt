@@ -1,0 +1,3 @@
+D:/desktop_document/ui/cmake-build-debug/CMakeFiles/ui.elf.dir
+D:/desktop_document/ui/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/desktop_document/ui/cmake-build-debug/CMakeFiles/rebuild_cache.dir

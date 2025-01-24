@@ -1,0 +1,1 @@
+C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE -g -Wl,-gc-sections,--print-memory-usage,-Map=D:/desktop_document/ui/cmake-build-debug/ui.map -mcpu=cortex-m7 -mthumb -mthumb-interwork -T D:/desktop_document/ui/STM32H750VBTX_FLASH.ld @CMakeFiles\ui.elf.dir\objects1.rsp -o ui.elf 
