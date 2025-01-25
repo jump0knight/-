@@ -107,11 +107,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="OpenOCD 下载并运行.ui.elf">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ui.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ui" TARGET_NAME="ui.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ui" RUN_TARGET_NAME="ui.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -144,6 +139,8 @@
       <workItem from="1737683865706" duration="13999000" />
       <workItem from="1737708233330" duration="8705000" />
       <workItem from="1737719164316" duration="13897000" />
+      <workItem from="1737734074108" duration="114000" />
+      <workItem from="1737772455440" duration="6239000" />
     </task>
     <servers />
   </component>
@@ -163,6 +160,7 @@
         <watch expression="ringbuffer_is_full" />
         <watch expression="usart_read_buffer" />
         <watch expression="usart_ringbuffer" />
+        <watch expression="databuff" />
       </configuration>
     </watches-manager>
   </component>

@@ -11,6 +11,7 @@
 #include "stdarg.h"
 #include "stdio.h"
 #include "stm32h7xx_hal_uart.h"
+#include "myStreamParser.h"
 /******************************
  *
  *  以下是 串口 + DMA 的 串口 发送 TX buffer
@@ -99,14 +100,28 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size){
  */
 // 处理UART接收缓冲区中的数据
 void task_uart_proc(void){
+    uint8_t data_length = usart_ringbuffer.itemCount;
     // 如果环形缓冲区为空，直接返回
     if(ringbuffer_is_empty(&usart_ringbuffer)) return;
+    // 如果数据为空，直接返回
+    if (data_length == 0) return;
     // 从环形缓冲区读取数据到读取缓冲区
-    ringbuffer_read(&usart_ringbuffer, usart_read_buffer, usart_ringbuffer.itemCount);
+    ringbuffer_read(&usart_ringbuffer, usart_read_buffer, data_length);
     // 打印读取缓冲区中的数据
     /************** 以下 解析 串口 数据流 ******************************/
-
-    parse_stream_data(&parser, usart_read_buffer);
+    // 遍历 usart_read_buffer，逐字节调用 SParser_Parse 进行解析
+    for (uint8_t i = 0; i < data_length; i++) {
+        // 单字节传递给解析器
+        if (SParser_Parse(&parser, databuff, usart_read_buffer[i]) != HAL_OK){
+            // 如果解析到有效完整帧 (SParser_Parse 返回 1)，提取数据
+            // 假设 databuff 是解析器中存储解析完字段的结构体
+            MY_LOG(& huart1,"data1 : %.1f   \n", databuff[0].flt );
+            MY_LOG(& huart1,"data2 : %.1f   \n", databuff[1].flt );
+            MY_LOG(& huart1,"data3 : %d     \n", databuff[2].intenger );
+            MY_LOG(& huart1,"data4 : %d     \n", databuff[3].intenger );
+            //SParser_Init(&parser, "GP", "OE", ",", fmtStr);
+        }
+    }
 
     /************** 以上 解析 串口 数据流 ******************************/
 //    MY_LOG(& huart1,"ringbuffer data: %s\n", usart_read_buffer);
@@ -129,6 +144,6 @@ void myUart_init(void){
     ringbuffer_init(&usart_ringbuffer);
     // 串口解析器初始化
     // 头符号$ 尾符号* 分割符 , 数据类型 f
-    stream_parser_init(&parser, "$", "*", ",", "f");
+    SParser_Init(&parser, "$", "*", ",", fmtStr);
 }
 
