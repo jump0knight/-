@@ -35,6 +35,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/desktop_document/ui/Core/Src/adc.c" "CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj.d"
   "D:/desktop_document/ui/Core/Src/dma.c" "CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj.d"
   "D:/desktop_document/ui/Core/Src/gpio.c" "CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj.d"
   "D:/desktop_document/ui/Core/Src/main.c" "CMakeFiles/ui.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Core/Src/main.c.obj.d"
@@ -48,6 +49,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/desktop_document/ui/Core/Src/tim.c" "CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj.d"
   "D:/desktop_document/ui/Core/Src/usart.c" "CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj.d"
   "D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj.d"
+  "D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj.d"
+  "D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj.d"
   "D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj.d"
   "D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj.d"
   "D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj" "gcc" "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj.d"
@@ -114,12 +117,16 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/desktop_document/ui/myApp/bsp_uart.c" "CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj.d"
   "D:/desktop_document/ui/myApp/loop.c" "CMakeFiles/ui.elf.dir/myApp/loop.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myApp/loop.c.obj.d"
   "D:/desktop_document/ui/myApp/scheduler.c" "CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj.d"
+  "D:/desktop_document/ui/myDrivers/myAdc.c" "CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.obj.d"
   "D:/desktop_document/ui/myDrivers/myButton.c" "CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj.d"
   "D:/desktop_document/ui/myDrivers/myGpio.c" "CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj.d"
+  "D:/desktop_document/ui/myDrivers/myLib.c" "CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj.d"
   "D:/desktop_document/ui/myDrivers/myRingBuffer.c" "CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj.d"
   "D:/desktop_document/ui/myDrivers/myStreamParser.c" "CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj.d"
   "D:/desktop_document/ui/myDrivers/myTimeIR.c" "CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj.d"
   "D:/desktop_document/ui/myGui/menu.c" "CMakeFiles/ui.elf.dir/myGui/menu.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myGui/menu.c.obj.d"
+  "D:/desktop_document/ui/myGui/pageGui_serial.c" "CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj.d"
+  "D:/desktop_document/ui/myGui/pageGui_volt.c" "CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj.d"
   "D:/desktop_document/ui/myGui/u8g2_oled.c" "CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj" "gcc" "CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj.d"
   )
 

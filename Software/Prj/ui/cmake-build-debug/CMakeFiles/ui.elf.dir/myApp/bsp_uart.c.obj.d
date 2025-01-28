@@ -52,6 +52,9 @@ CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj: \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_mdma.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_exti.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_cortex.h \
+ D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_adc.h \
+ D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_ll_adc.h \
+ D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_adc_ex.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_flash.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_flash_ex.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_hsem.h \
@@ -67,10 +70,12 @@ CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj: \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_uart_ex.h \
  D:\desktop_document\ui\myApp\scheduler.h \
  D:\desktop_document\ui\myApp\bsp_key.h \
- D:\desktop_document\ui\myDrivers/myGpio.h \
+ D:\desktop_document\ui\myDrivers/myLib.h \
  D:\desktop_document\ui\myApp/bsp_system.h \
+ D:\desktop_document\ui\myDrivers/myGpio.h \
  D:\desktop_document\ui\myDrivers/myButton.h \
  D:\desktop_document\ui\myDrivers/myTimeIR.h \
+ D:\desktop_document\ui\myDrivers/myAdc.h \
  D:\desktop_document\ui\myDrivers/myRingBuffer.h \
  D:\desktop_document\ui\myDrivers/myStreamParser.h \
  D:\desktop_document\ui\myDrivers/myRingBuffer.h \
@@ -85,4 +90,6 @@ CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj: \
  C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/arm-none-eabi/include/limits.h \
  C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/arm-none-eabi/include/sys/syslimits.h \
  D:\desktop_document\ui\U8g2/u8x8.h D:\desktop_document\ui\myGui/menu.h \
- C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
+ C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
+ D:\desktop_document\ui\myGui/pageGui_serial.h \
+ D:\desktop_document\ui\myGui/menu.h

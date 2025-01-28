@@ -15,4 +15,6 @@
 
 void myTimeIR_init(void);
 
+extern double sine_wave[94];
+
 #endif //UI_MYTIMEIR_H

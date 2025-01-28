@@ -102,11 +102,21 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.rainbow.brackets.root",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\desktop_document\ui\myDrivers" />
+    </key>
+  </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.ui.elf">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ui.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ui" TARGET_NAME="ui.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ui" RUN_TARGET_NAME="ui.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -141,6 +151,17 @@
       <workItem from="1737719164316" duration="13897000" />
       <workItem from="1737734074108" duration="114000" />
       <workItem from="1737772455440" duration="6239000" />
+      <workItem from="1737779550634" duration="7637000" />
+      <workItem from="1737791418258" duration="17124000" />
+      <workItem from="1737874613958" duration="191000" />
+      <workItem from="1737874815395" duration="237000" />
+      <workItem from="1737875074688" duration="16931000" />
+      <workItem from="1737903368575" duration="131000" />
+      <workItem from="1737903509595" duration="40000" />
+      <workItem from="1737903698052" duration="748000" />
+      <workItem from="1737904688881" duration="1721000" />
+      <workItem from="1737942723777" duration="27155000" />
+      <workItem from="1738044827793" duration="15464000" />
     </task>
     <servers />
   </component>
@@ -153,15 +174,29 @@
     <isAutomaticReloadCMake value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/myApp/bsp_uart.c</url>
+          <line>38</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/myGui/pageGui_serial.c</url>
+          <line>47</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
-        <watch expression="uart_rx_dma_buffer" language="ObjectiveC" />
-        <watch expression="usart_rb" language="ObjectiveC" />
-        <watch expression="ringbuffer_is_full" />
-        <watch expression="usart_read_buffer" />
-        <watch expression="usart_ringbuffer" />
-        <watch expression="databuff" />
+        <watch expression="ui" />
+        <watch expression="huart1" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

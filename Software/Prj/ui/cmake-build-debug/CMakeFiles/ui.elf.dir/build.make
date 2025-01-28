@@ -68,10 +68,24 @@ include CMakeFiles/ui.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ui.elf.dir/flags.make
 
+CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj: CMakeFiles/ui.elf.dir/flags.make
+CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj: D:/desktop_document/ui/Core/Src/adc.c
+CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\adc.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\adc.c.obj -c D:\desktop_document\ui\Core\Src\adc.c
+
+CMakeFiles/ui.elf.dir/Core/Src/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.elf.dir/Core/Src/adc.c.i"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\desktop_document\ui\Core\Src\adc.c > CMakeFiles\ui.elf.dir\Core\Src\adc.c.i
+
+CMakeFiles/ui.elf.dir/Core/Src/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/Core/Src/adc.c.s"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\Core\Src\adc.c -o CMakeFiles\ui.elf.dir\Core\Src\adc.c.s
+
 CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj: D:/desktop_document/ui/Core/Src/dma.c
 CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\dma.c.obj -c D:\desktop_document\ui\Core\Src\dma.c
 
 CMakeFiles/ui.elf.dir/Core/Src/dma.c.i: cmake_force
@@ -85,7 +99,7 @@ CMakeFiles/ui.elf.dir/Core/Src/dma.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj: D:/desktop_document/ui/Core/Src/gpio.c
 CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\gpio.c.obj -c D:\desktop_document\ui\Core\Src\gpio.c
 
 CMakeFiles/ui.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/ui.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/main.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/main.c.obj: D:/desktop_document/ui/Core/Src/main.c
 CMakeFiles/ui.elf.dir/Core/Src/main.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ui.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ui.elf.dir/Core/Src/main.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\main.c.obj -c D:\desktop_document\ui\Core\Src\main.c
 
 CMakeFiles/ui.elf.dir/Core/Src/main.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/ui.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.obj: D:/desktop_document/ui/Core/Src/memorymap.c
 CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\memorymap.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\memorymap.c.obj -c D:\desktop_document\ui\Core\Src\memorymap.c
 
 CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/ui.elf.dir/Core/Src/memorymap.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj: D:/desktop_document/ui/Core/Src/spi.c
 CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\spi.c.obj -c D:\desktop_document\ui\Core\Src\spi.c
 
 CMakeFiles/ui.elf.dir/Core/Src/spi.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/ui.elf.dir/Core/Src/spi.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: D:/desktop_document/ui/Core/Src/stm32h7xx_hal_msp.c
 CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\stm32h7xx_hal_msp.c.obj -c D:\desktop_document\ui\Core\Src\stm32h7xx_hal_msp.c
 
 CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_hal_msp.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_hal_msp.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_it.c.obj: D:/desktop_document/ui/Core/Src/stm32h7xx_it.c
 CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_it.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_it.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_it.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\stm32h7xx_it.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\stm32h7xx_it.c.obj -c D:\desktop_document\ui\Core\Src\stm32h7xx_it.c
 
 CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_it.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/ui.elf.dir/Core/Src/stm32h7xx_it.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/syscalls.c.obj: D:/desktop_document/ui/Core/Src/syscalls.c
 CMakeFiles/ui.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ui.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ui.elf.dir/Core/Src/syscalls.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\syscalls.c.obj -c D:\desktop_document\ui\Core\Src\syscalls.c
 
 CMakeFiles/ui.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/ui.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/sysmem.c.obj: D:/desktop_document/ui/Core/Src/sysmem.c
 CMakeFiles/ui.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ui.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ui.elf.dir/Core/Src/sysmem.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\sysmem.c.obj -c D:\desktop_document\ui\Core\Src\sysmem.c
 
 CMakeFiles/ui.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/ui.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/system_stm32h7xx.c.obj: D:/desktop_document/ui/Core/Src/system_stm32h7xx.c
 CMakeFiles/ui.elf.dir/Core/Src/system_stm32h7xx.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ui.elf.dir/Core/Src/system_stm32h7xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ui.elf.dir/Core/Src/system_stm32h7xx.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/system_stm32h7xx.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\system_stm32h7xx.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\system_stm32h7xx.c.obj -c D:\desktop_document\ui\Core\Src\system_stm32h7xx.c
 
 CMakeFiles/ui.elf.dir/Core/Src/system_stm32h7xx.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/ui.elf.dir/Core/Src/system_stm32h7xx.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj: D:/desktop_document/ui/Core/Src/tim.c
 CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\tim.c.obj -c D:\desktop_document\ui\Core\Src\tim.c
 
 CMakeFiles/ui.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/ui.elf.dir/Core/Src/tim.c.s: cmake_force
 CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj: D:/desktop_document/ui/Core/Src/usart.c
 CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\ui.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\ui.elf.dir\Core\Src\usart.c.obj -c D:\desktop_document\ui\Core\Src\usart.c
 
 CMakeFiles/ui.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/ui.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/ui.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj: D:/desktop_document/ui/Core/Startup/startup_stm32h750vbtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/ui.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/ui.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\ui.elf.dir\Core\Startup\startup_stm32h750vbtx.s.obj -c D:\desktop_document\ui\Core\Startup\startup_stm32h750vbtx.s
 
 CMakeFiles/ui.elf.dir/Core/Startup/startup_stm32h750vbtx.s.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/ui.elf.dir/Core/Startup/startup_stm32h750vbtx.s.s: cmake_force
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i: cmake_force
@@ -263,10 +277,38 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c.s
 
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj: CMakeFiles/ui.elf.dir/flags.make
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c
+
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.i"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c > CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c.i
+
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.s"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c.s
+
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj: CMakeFiles/ui.elf.dir/flags.make
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c
+
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.i"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c > CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c.i
+
+CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.s"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c.s
+
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i: cmake_force
@@ -280,7 +322,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s:
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.i: cmake_force
@@ -294,7 +336,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.s: cm
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.i: cmake_force
@@ -308,7 +350,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.s:
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_exti.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.i: cmake_force
@@ -322,7 +364,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c.s: c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.i: cmake_force
@@ -336,7 +378,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c.s: 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_flash_ex.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.i: cmake_force
@@ -350,7 +392,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c.
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i: cmake_force
@@ -364,7 +406,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s: c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.i: cmake_force
@@ -378,7 +420,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c.s: c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.i: cmake_force
@@ -392,7 +434,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c.s: cm
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.i: cmake_force
@@ -406,7 +448,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c.s:
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.i: cmake_force
@@ -420,7 +462,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c.s: c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.i: cmake_force
@@ -434,7 +476,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c.s: cm
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i: cmake_force
@@ -448,7 +490,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s:
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i: cmake_force
@@ -462,7 +504,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s: cm
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i: cmake_force
@@ -476,7 +518,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s:
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.i: cmake_force
@@ -490,7 +532,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.s: cm
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_spi_ex.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.i: cmake_force
@@ -504,7 +546,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c.s:
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i: cmake_force
@@ -518,7 +560,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s: cm
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i: cmake_force
@@ -532,7 +574,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s:
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i: cmake_force
@@ -546,7 +588,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s: c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj -MF CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c.obj.d -o CMakeFiles\ui.elf.dir\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c.obj -c D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_uart_ex.c
 
 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i: cmake_force
@@ -560,7 +602,7 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 CMakeFiles/ui.elf.dir/U8g2/mui.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/mui.c.obj: D:/desktop_document/ui/U8g2/mui.c
 CMakeFiles/ui.elf.dir/U8g2/mui.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/ui.elf.dir/U8g2/mui.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/ui.elf.dir/U8g2/mui.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/mui.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\mui.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\mui.c.obj -c D:\desktop_document\ui\U8g2\mui.c
 
 CMakeFiles/ui.elf.dir/U8g2/mui.c.i: cmake_force
@@ -574,7 +616,7 @@ CMakeFiles/ui.elf.dir/U8g2/mui.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/mui_u8g2.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/mui_u8g2.c.obj: D:/desktop_document/ui/U8g2/mui_u8g2.c
 CMakeFiles/ui.elf.dir/U8g2/mui_u8g2.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/ui.elf.dir/U8g2/mui_u8g2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/ui.elf.dir/U8g2/mui_u8g2.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/mui_u8g2.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\mui_u8g2.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\mui_u8g2.c.obj -c D:\desktop_document\ui\U8g2\mui_u8g2.c
 
 CMakeFiles/ui.elf.dir/U8g2/mui_u8g2.c.i: cmake_force
@@ -588,7 +630,7 @@ CMakeFiles/ui.elf.dir/U8g2/mui_u8g2.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_bitmap.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_bitmap.c.obj: D:/desktop_document/ui/U8g2/u8g2_bitmap.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_bitmap.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_bitmap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_bitmap.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_bitmap.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_bitmap.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_bitmap.c.obj -c D:\desktop_document\ui\U8g2\u8g2_bitmap.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_bitmap.c.i: cmake_force
@@ -602,7 +644,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_bitmap.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_box.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_box.c.obj: D:/desktop_document/ui/U8g2/u8g2_box.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_box.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_box.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_box.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_box.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_box.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_box.c.obj -c D:\desktop_document\ui\U8g2\u8g2_box.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_box.c.i: cmake_force
@@ -616,7 +658,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_box.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_buffer.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_buffer.c.obj: D:/desktop_document/ui/U8g2/u8g2_buffer.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_buffer.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_buffer.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_buffer.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_buffer.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_buffer.c.obj -c D:\desktop_document\ui\U8g2\u8g2_buffer.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_buffer.c.i: cmake_force
@@ -630,7 +672,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_buffer.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_button.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_button.c.obj: D:/desktop_document/ui/U8g2/u8g2_button.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_button.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_button.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_button.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_button.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_button.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_button.c.obj -c D:\desktop_document\ui\U8g2\u8g2_button.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_button.c.i: cmake_force
@@ -644,7 +686,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_button.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_circle.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_circle.c.obj: D:/desktop_document/ui/U8g2/u8g2_circle.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_circle.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_circle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_circle.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_circle.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_circle.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_circle.c.obj -c D:\desktop_document\ui\U8g2\u8g2_circle.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_circle.c.i: cmake_force
@@ -658,7 +700,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_circle.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_cleardisplay.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_cleardisplay.c.obj: D:/desktop_document/ui/U8g2/u8g2_cleardisplay.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_cleardisplay.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_cleardisplay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_cleardisplay.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_cleardisplay.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_cleardisplay.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_cleardisplay.c.obj -c D:\desktop_document\ui\U8g2\u8g2_cleardisplay.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_cleardisplay.c.i: cmake_force
@@ -672,7 +714,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_cleardisplay.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_d_memory.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_d_memory.c.obj: D:/desktop_document/ui/U8g2/u8g2_d_memory.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_d_memory.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_d_memory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_d_memory.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_d_memory.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_d_memory.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_d_memory.c.obj -c D:\desktop_document\ui\U8g2\u8g2_d_memory.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_d_memory.c.i: cmake_force
@@ -686,7 +728,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_d_memory.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_d_setup.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_d_setup.c.obj: D:/desktop_document/ui/U8g2/u8g2_d_setup.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_d_setup.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_d_setup.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_d_setup.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_d_setup.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_d_setup.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_d_setup.c.obj -c D:\desktop_document\ui\U8g2\u8g2_d_setup.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_d_setup.c.i: cmake_force
@@ -700,7 +742,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_d_setup.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_font.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_font.c.obj: D:/desktop_document/ui/U8g2/u8g2_font.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_font.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_font.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_font.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_font.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_font.c.obj -c D:\desktop_document\ui\U8g2\u8g2_font.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_font.c.i: cmake_force
@@ -714,7 +756,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_font.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_fonts.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_fonts.c.obj: D:/desktop_document/ui/U8g2/u8g2_fonts.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_fonts.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_fonts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_fonts.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_fonts.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_fonts.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_fonts.c.obj -c D:\desktop_document\ui\U8g2\u8g2_fonts.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_fonts.c.i: cmake_force
@@ -728,7 +770,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_fonts.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_hvline.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_hvline.c.obj: D:/desktop_document/ui/U8g2/u8g2_hvline.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_hvline.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_hvline.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_hvline.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_hvline.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_hvline.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_hvline.c.obj -c D:\desktop_document\ui\U8g2\u8g2_hvline.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_hvline.c.i: cmake_force
@@ -742,7 +784,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_hvline.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_input_value.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_input_value.c.obj: D:/desktop_document/ui/U8g2/u8g2_input_value.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_input_value.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_input_value.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_input_value.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_input_value.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_input_value.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_input_value.c.obj -c D:\desktop_document\ui\U8g2\u8g2_input_value.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_input_value.c.i: cmake_force
@@ -756,7 +798,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_input_value.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_intersection.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_intersection.c.obj: D:/desktop_document/ui/U8g2/u8g2_intersection.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_intersection.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_intersection.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_intersection.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_intersection.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_intersection.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_intersection.c.obj -c D:\desktop_document\ui\U8g2\u8g2_intersection.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_intersection.c.i: cmake_force
@@ -770,7 +812,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_intersection.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_kerning.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_kerning.c.obj: D:/desktop_document/ui/U8g2/u8g2_kerning.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_kerning.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_kerning.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_kerning.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_kerning.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_kerning.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_kerning.c.obj -c D:\desktop_document\ui\U8g2\u8g2_kerning.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_kerning.c.i: cmake_force
@@ -784,7 +826,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_kerning.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_line.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_line.c.obj: D:/desktop_document/ui/U8g2/u8g2_line.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_line.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_line.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_line.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_line.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_line.c.obj -c D:\desktop_document\ui\U8g2\u8g2_line.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_line.c.i: cmake_force
@@ -798,7 +840,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_line.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_ll_hvline.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_ll_hvline.c.obj: D:/desktop_document/ui/U8g2/u8g2_ll_hvline.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_ll_hvline.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_ll_hvline.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_ll_hvline.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_ll_hvline.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_ll_hvline.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_ll_hvline.c.obj -c D:\desktop_document\ui\U8g2\u8g2_ll_hvline.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_ll_hvline.c.i: cmake_force
@@ -812,7 +854,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_ll_hvline.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_message.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_message.c.obj: D:/desktop_document/ui/U8g2/u8g2_message.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_message.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_message.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_message.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_message.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_message.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_message.c.obj -c D:\desktop_document\ui\U8g2\u8g2_message.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_message.c.i: cmake_force
@@ -826,7 +868,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_message.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_polygon.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_polygon.c.obj: D:/desktop_document/ui/U8g2/u8g2_polygon.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_polygon.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_polygon.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_polygon.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_polygon.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_polygon.c.obj -c D:\desktop_document\ui\U8g2\u8g2_polygon.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_polygon.c.i: cmake_force
@@ -840,7 +882,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_polygon.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_selection_list.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_selection_list.c.obj: D:/desktop_document/ui/U8g2/u8g2_selection_list.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_selection_list.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_selection_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_selection_list.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_selection_list.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_selection_list.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_selection_list.c.obj -c D:\desktop_document\ui\U8g2\u8g2_selection_list.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_selection_list.c.i: cmake_force
@@ -854,7 +896,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_selection_list.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8g2_setup.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8g2_setup.c.obj: D:/desktop_document/ui/U8g2/u8g2_setup.c
 CMakeFiles/ui.elf.dir/U8g2/u8g2_setup.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_setup.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8g2_setup.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8g2_setup.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8g2_setup.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8g2_setup.c.obj -c D:\desktop_document\ui\U8g2\u8g2_setup.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8g2_setup.c.i: cmake_force
@@ -868,7 +910,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8g2_setup.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8log.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8log.c.obj: D:/desktop_document/ui/U8g2/u8log.c
 CMakeFiles/ui.elf.dir/U8g2/u8log.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8log.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8log.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8log.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8log.c.obj -c D:\desktop_document\ui\U8g2\u8log.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8log.c.i: cmake_force
@@ -882,7 +924,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8log.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8log_u8g2.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8log_u8g2.c.obj: D:/desktop_document/ui/U8g2/u8log_u8g2.c
 CMakeFiles/ui.elf.dir/U8g2/u8log_u8g2.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8log_u8g2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8log_u8g2.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8log_u8g2.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8log_u8g2.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8log_u8g2.c.obj -c D:\desktop_document\ui\U8g2\u8log_u8g2.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8log_u8g2.c.i: cmake_force
@@ -896,7 +938,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8log_u8g2.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8log_u8x8.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8log_u8x8.c.obj: D:/desktop_document/ui/U8g2/u8log_u8x8.c
 CMakeFiles/ui.elf.dir/U8g2/u8log_u8x8.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8log_u8x8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8log_u8x8.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8log_u8x8.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8log_u8x8.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8log_u8x8.c.obj -c D:\desktop_document\ui\U8g2\u8log_u8x8.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8log_u8x8.c.i: cmake_force
@@ -910,7 +952,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8log_u8x8.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_8x8.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_8x8.c.obj: D:/desktop_document/ui/U8g2/u8x8_8x8.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_8x8.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_8x8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_8x8.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_8x8.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_8x8.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_8x8.c.obj -c D:\desktop_document\ui\U8g2\u8x8_8x8.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_8x8.c.i: cmake_force
@@ -924,7 +966,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_8x8.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_byte.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_byte.c.obj: D:/desktop_document/ui/U8g2/u8x8_byte.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_byte.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_byte.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_byte.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_byte.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_byte.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_byte.c.obj -c D:\desktop_document\ui\U8g2\u8x8_byte.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_byte.c.i: cmake_force
@@ -938,7 +980,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_byte.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_cad.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_cad.c.obj: D:/desktop_document/ui/U8g2/u8x8_cad.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_cad.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_cad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_cad.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_cad.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_cad.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_cad.c.obj -c D:\desktop_document\ui\U8g2\u8x8_cad.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_cad.c.i: cmake_force
@@ -952,7 +994,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_cad.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_capture.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_capture.c.obj: D:/desktop_document/ui/U8g2/u8x8_capture.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_capture.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_capture.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_capture.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_capture.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_capture.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_capture.c.obj -c D:\desktop_document\ui\U8g2\u8x8_capture.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_capture.c.i: cmake_force
@@ -966,7 +1008,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_capture.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_d_ssd1306_128x64_noname.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_d_ssd1306_128x64_noname.c.obj: D:/desktop_document/ui/U8g2/u8x8_d_ssd1306_128x64_noname.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_d_ssd1306_128x64_noname.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_d_ssd1306_128x64_noname.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_d_ssd1306_128x64_noname.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_d_ssd1306_128x64_noname.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_d_ssd1306_128x64_noname.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_d_ssd1306_128x64_noname.c.obj -c D:\desktop_document\ui\U8g2\u8x8_d_ssd1306_128x64_noname.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_d_ssd1306_128x64_noname.c.i: cmake_force
@@ -980,7 +1022,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_d_ssd1306_128x64_noname.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_debounce.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_debounce.c.obj: D:/desktop_document/ui/U8g2/u8x8_debounce.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_debounce.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_debounce.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_debounce.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_debounce.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_debounce.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_debounce.c.obj -c D:\desktop_document\ui\U8g2\u8x8_debounce.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_debounce.c.i: cmake_force
@@ -994,7 +1036,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_debounce.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_display.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_display.c.obj: D:/desktop_document/ui/U8g2/u8x8_display.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_display.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_display.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_display.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_display.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_display.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_display.c.obj -c D:\desktop_document\ui\U8g2\u8x8_display.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_display.c.i: cmake_force
@@ -1008,7 +1050,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_display.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_fonts.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_fonts.c.obj: D:/desktop_document/ui/U8g2/u8x8_fonts.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_fonts.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_fonts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_fonts.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_fonts.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_fonts.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_fonts.c.obj -c D:\desktop_document\ui\U8g2\u8x8_fonts.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_fonts.c.i: cmake_force
@@ -1022,7 +1064,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_fonts.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_gpio.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_gpio.c.obj: D:/desktop_document/ui/U8g2/u8x8_gpio.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_gpio.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_gpio.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_gpio.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_gpio.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_gpio.c.obj -c D:\desktop_document\ui\U8g2\u8x8_gpio.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_gpio.c.i: cmake_force
@@ -1036,7 +1078,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_gpio.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_input_value.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_input_value.c.obj: D:/desktop_document/ui/U8g2/u8x8_input_value.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_input_value.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_input_value.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_input_value.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_input_value.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_input_value.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_input_value.c.obj -c D:\desktop_document\ui\U8g2\u8x8_input_value.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_input_value.c.i: cmake_force
@@ -1050,7 +1092,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_input_value.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_message.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_message.c.obj: D:/desktop_document/ui/U8g2/u8x8_message.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_message.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_message.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_message.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_message.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_message.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_message.c.obj -c D:\desktop_document\ui\U8g2\u8x8_message.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_message.c.i: cmake_force
@@ -1064,7 +1106,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_message.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_selection_list.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_selection_list.c.obj: D:/desktop_document/ui/U8g2/u8x8_selection_list.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_selection_list.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_selection_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_selection_list.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_selection_list.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_selection_list.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_selection_list.c.obj -c D:\desktop_document\ui\U8g2\u8x8_selection_list.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_selection_list.c.i: cmake_force
@@ -1078,7 +1120,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_selection_list.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_setup.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_setup.c.obj: D:/desktop_document/ui/U8g2/u8x8_setup.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_setup.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_setup.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_setup.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_setup.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_setup.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_setup.c.obj -c D:\desktop_document\ui\U8g2\u8x8_setup.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_setup.c.i: cmake_force
@@ -1092,7 +1134,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_setup.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_string.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_string.c.obj: D:/desktop_document/ui/U8g2/u8x8_string.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_string.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_string.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_string.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_string.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_string.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_string.c.obj -c D:\desktop_document\ui\U8g2\u8x8_string.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_string.c.i: cmake_force
@@ -1106,7 +1148,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_string.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_u16toa.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_u16toa.c.obj: D:/desktop_document/ui/U8g2/u8x8_u16toa.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_u16toa.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_u16toa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_u16toa.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_u16toa.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_u16toa.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_u16toa.c.obj -c D:\desktop_document\ui\U8g2\u8x8_u16toa.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_u16toa.c.i: cmake_force
@@ -1120,7 +1162,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_u16toa.c.s: cmake_force
 CMakeFiles/ui.elf.dir/U8g2/u8x8_u8toa.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/U8g2/u8x8_u8toa.c.obj: D:/desktop_document/ui/U8g2/u8x8_u8toa.c
 CMakeFiles/ui.elf.dir/U8g2/u8x8_u8toa.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_u8toa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/ui.elf.dir/U8g2/u8x8_u8toa.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/U8g2/u8x8_u8toa.c.obj -MF CMakeFiles\ui.elf.dir\U8g2\u8x8_u8toa.c.obj.d -o CMakeFiles\ui.elf.dir\U8g2\u8x8_u8toa.c.obj -c D:\desktop_document\ui\U8g2\u8x8_u8toa.c
 
 CMakeFiles/ui.elf.dir/U8g2/u8x8_u8toa.c.i: cmake_force
@@ -1134,7 +1176,7 @@ CMakeFiles/ui.elf.dir/U8g2/u8x8_u8toa.c.s: cmake_force
 CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj: D:/desktop_document/ui/myApp/bsp_key.c
 CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj -MF CMakeFiles\ui.elf.dir\myApp\bsp_key.c.obj.d -o CMakeFiles\ui.elf.dir\myApp\bsp_key.c.obj -c D:\desktop_document\ui\myApp\bsp_key.c
 
 CMakeFiles/ui.elf.dir/myApp/bsp_key.c.i: cmake_force
@@ -1148,7 +1190,7 @@ CMakeFiles/ui.elf.dir/myApp/bsp_key.c.s: cmake_force
 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj: D:/desktop_document/ui/myApp/bsp_uart.c
 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj -MF CMakeFiles\ui.elf.dir\myApp\bsp_uart.c.obj.d -o CMakeFiles\ui.elf.dir\myApp\bsp_uart.c.obj -c D:\desktop_document\ui\myApp\bsp_uart.c
 
 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.i: cmake_force
@@ -1162,7 +1204,7 @@ CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.s: cmake_force
 CMakeFiles/ui.elf.dir/myApp/loop.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myApp/loop.c.obj: D:/desktop_document/ui/myApp/loop.c
 CMakeFiles/ui.elf.dir/myApp/loop.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/ui.elf.dir/myApp/loop.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/ui.elf.dir/myApp/loop.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myApp/loop.c.obj -MF CMakeFiles\ui.elf.dir\myApp\loop.c.obj.d -o CMakeFiles\ui.elf.dir\myApp\loop.c.obj -c D:\desktop_document\ui\myApp\loop.c
 
 CMakeFiles/ui.elf.dir/myApp/loop.c.i: cmake_force
@@ -1176,7 +1218,7 @@ CMakeFiles/ui.elf.dir/myApp/loop.c.s: cmake_force
 CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj: D:/desktop_document/ui/myApp/scheduler.c
 CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj -MF CMakeFiles\ui.elf.dir\myApp\scheduler.c.obj.d -o CMakeFiles\ui.elf.dir\myApp\scheduler.c.obj -c D:\desktop_document\ui\myApp\scheduler.c
 
 CMakeFiles/ui.elf.dir/myApp/scheduler.c.i: cmake_force
@@ -1187,10 +1229,24 @@ CMakeFiles/ui.elf.dir/myApp/scheduler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/myApp/scheduler.c.s"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\myApp\scheduler.c -o CMakeFiles\ui.elf.dir\myApp\scheduler.c.s
 
+CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.obj: CMakeFiles/ui.elf.dir/flags.make
+CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.obj: D:/desktop_document/ui/myDrivers/myAdc.c
+CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.obj"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.obj -MF CMakeFiles\ui.elf.dir\myDrivers\myAdc.c.obj.d -o CMakeFiles\ui.elf.dir\myDrivers\myAdc.c.obj -c D:\desktop_document\ui\myDrivers\myAdc.c
+
+CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.i"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\desktop_document\ui\myDrivers\myAdc.c > CMakeFiles\ui.elf.dir\myDrivers\myAdc.c.i
+
+CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.s"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\myDrivers\myAdc.c -o CMakeFiles\ui.elf.dir\myDrivers\myAdc.c.s
+
 CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj: D:/desktop_document/ui/myDrivers/myButton.c
 CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj -MF CMakeFiles\ui.elf.dir\myDrivers\myButton.c.obj.d -o CMakeFiles\ui.elf.dir\myDrivers\myButton.c.obj -c D:\desktop_document\ui\myDrivers\myButton.c
 
 CMakeFiles/ui.elf.dir/myDrivers/myButton.c.i: cmake_force
@@ -1204,7 +1260,7 @@ CMakeFiles/ui.elf.dir/myDrivers/myButton.c.s: cmake_force
 CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj: D:/desktop_document/ui/myDrivers/myGpio.c
 CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj -MF CMakeFiles\ui.elf.dir\myDrivers\myGpio.c.obj.d -o CMakeFiles\ui.elf.dir\myDrivers\myGpio.c.obj -c D:\desktop_document\ui\myDrivers\myGpio.c
 
 CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.i: cmake_force
@@ -1215,10 +1271,24 @@ CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.s"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\myDrivers\myGpio.c -o CMakeFiles\ui.elf.dir\myDrivers\myGpio.c.s
 
+CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj: CMakeFiles/ui.elf.dir/flags.make
+CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj: D:/desktop_document/ui/myDrivers/myLib.c
+CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj -MF CMakeFiles\ui.elf.dir\myDrivers\myLib.c.obj.d -o CMakeFiles\ui.elf.dir\myDrivers\myLib.c.obj -c D:\desktop_document\ui\myDrivers\myLib.c
+
+CMakeFiles/ui.elf.dir/myDrivers/myLib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.elf.dir/myDrivers/myLib.c.i"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\desktop_document\ui\myDrivers\myLib.c > CMakeFiles\ui.elf.dir\myDrivers\myLib.c.i
+
+CMakeFiles/ui.elf.dir/myDrivers/myLib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/myDrivers/myLib.c.s"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\myDrivers\myLib.c -o CMakeFiles\ui.elf.dir\myDrivers\myLib.c.s
+
 CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj: D:/desktop_document/ui/myDrivers/myRingBuffer.c
 CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj -MF CMakeFiles\ui.elf.dir\myDrivers\myRingBuffer.c.obj.d -o CMakeFiles\ui.elf.dir\myDrivers\myRingBuffer.c.obj -c D:\desktop_document\ui\myDrivers\myRingBuffer.c
 
 CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.i: cmake_force
@@ -1232,7 +1302,7 @@ CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.s: cmake_force
 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj: D:/desktop_document/ui/myDrivers/myStreamParser.c
 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj -MF CMakeFiles\ui.elf.dir\myDrivers\myStreamParser.c.obj.d -o CMakeFiles\ui.elf.dir\myDrivers\myStreamParser.c.obj -c D:\desktop_document\ui\myDrivers\myStreamParser.c
 
 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.i: cmake_force
@@ -1246,7 +1316,7 @@ CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.s: cmake_force
 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj: D:/desktop_document/ui/myDrivers/myTimeIR.c
 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj -MF CMakeFiles\ui.elf.dir\myDrivers\myTimeIR.c.obj.d -o CMakeFiles\ui.elf.dir\myDrivers\myTimeIR.c.obj -c D:\desktop_document\ui\myDrivers\myTimeIR.c
 
 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.i: cmake_force
@@ -1260,7 +1330,7 @@ CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.s: cmake_force
 CMakeFiles/ui.elf.dir/myGui/menu.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myGui/menu.c.obj: D:/desktop_document/ui/myGui/menu.c
 CMakeFiles/ui.elf.dir/myGui/menu.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/ui.elf.dir/myGui/menu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/ui.elf.dir/myGui/menu.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myGui/menu.c.obj -MF CMakeFiles\ui.elf.dir\myGui\menu.c.obj.d -o CMakeFiles\ui.elf.dir\myGui\menu.c.obj -c D:\desktop_document\ui\myGui\menu.c
 
 CMakeFiles/ui.elf.dir/myGui/menu.c.i: cmake_force
@@ -1271,10 +1341,38 @@ CMakeFiles/ui.elf.dir/myGui/menu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/myGui/menu.c.s"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\myGui\menu.c -o CMakeFiles\ui.elf.dir\myGui\menu.c.s
 
+CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj: CMakeFiles/ui.elf.dir/flags.make
+CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj: D:/desktop_document/ui/myGui/pageGui_serial.c
+CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj -MF CMakeFiles\ui.elf.dir\myGui\pageGui_serial.c.obj.d -o CMakeFiles\ui.elf.dir\myGui\pageGui_serial.c.obj -c D:\desktop_document\ui\myGui\pageGui_serial.c
+
+CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.i"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\desktop_document\ui\myGui\pageGui_serial.c > CMakeFiles\ui.elf.dir\myGui\pageGui_serial.c.i
+
+CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.s"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\myGui\pageGui_serial.c -o CMakeFiles\ui.elf.dir\myGui\pageGui_serial.c.s
+
+CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj: CMakeFiles/ui.elf.dir/flags.make
+CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj: D:/desktop_document/ui/myGui/pageGui_volt.c
+CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj -MF CMakeFiles\ui.elf.dir\myGui\pageGui_volt.c.obj.d -o CMakeFiles\ui.elf.dir\myGui\pageGui_volt.c.obj -c D:\desktop_document\ui\myGui\pageGui_volt.c
+
+CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.i"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\desktop_document\ui\myGui\pageGui_volt.c > CMakeFiles\ui.elf.dir\myGui\pageGui_volt.c.i
+
+CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.s"
+	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\desktop_document\ui\myGui\pageGui_volt.c -o CMakeFiles\ui.elf.dir\myGui\pageGui_volt.c.s
+
 CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj: CMakeFiles/ui.elf.dir/flags.make
 CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj: D:/desktop_document/ui/myGui/u8g2_oled.c
 CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj: CMakeFiles/ui.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj"
 	C:\Software\Clion\Arm_GNU\14EFD8~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj -MF CMakeFiles\ui.elf.dir\myGui\u8g2_oled.c.obj.d -o CMakeFiles\ui.elf.dir\myGui\u8g2_oled.c.obj -c D:\desktop_document\ui\myGui\u8g2_oled.c
 
 CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.i: cmake_force
@@ -1287,6 +1385,7 @@ CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.s: cmake_force
 
 # Object files for target ui.elf
 ui_elf_OBJECTS = \
+"CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj" \
 "CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/ui.elf.dir/Core/Src/main.c.obj" \
@@ -1301,6 +1400,8 @@ ui_elf_OBJECTS = \
 "CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/ui.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj" \
 "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj" \
+"CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj" \
+"CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj" \
 "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj" \
 "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj" \
 "CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj" \
@@ -1367,17 +1468,22 @@ ui_elf_OBJECTS = \
 "CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj" \
 "CMakeFiles/ui.elf.dir/myApp/loop.c.obj" \
 "CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj" \
+"CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.obj" \
 "CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj" \
 "CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj" \
+"CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj" \
 "CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj" \
 "CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj" \
 "CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj" \
 "CMakeFiles/ui.elf.dir/myGui/menu.c.obj" \
+"CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj" \
+"CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj" \
 "CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj"
 
 # External object files for target ui.elf
 ui_elf_EXTERNAL_OBJECTS =
 
+ui.elf: CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/Core/Src/main.c.obj
@@ -1392,6 +1498,8 @@ ui.elf: CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/Core/Startup/startup_stm32h750vbtx.s.obj
 ui.elf: CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ui.elf: CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj
+ui.elf: CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c.obj
@@ -1458,17 +1566,21 @@ ui.elf: CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/myApp/loop.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj
+ui.elf: CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj
+ui.elf: CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+ui.elf: CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
+ui.elf: CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj
 ui.elf: CMakeFiles/ui.elf.dir/build.make
 ui.elf: CMakeFiles/ui.elf.dir/objects1.rsp
 ui.elf: CMakeFiles/ui.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking C executable ui.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\desktop_document\ui\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Linking C executable ui.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ui.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/desktop_document/ui/cmake-build-debug/ui.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/desktop_document/ui/cmake-build-debug/ui.bin"

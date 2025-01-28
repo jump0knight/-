@@ -201,7 +201,6 @@
 			},
 			"sourceIndexes" : 
 			[
-				9,
 				10,
 				11,
 				12,
@@ -213,11 +212,8 @@
 				18,
 				19,
 				20,
-				93,
-				94,
-				95,
-				96,
-				97,
+				21,
+				22,
 				98,
 				99,
 				100,
@@ -235,15 +231,15 @@
 				112,
 				113,
 				114,
+				115,
+				116,
 				117,
+				118,
 				119,
-				122,
-				123,
+				120,
+				121,
 				124,
-				125,
 				126,
-				127,
-				128,
 				129,
 				130,
 				131,
@@ -260,13 +256,13 @@
 				142,
 				143,
 				144,
+				145,
 				146,
 				147,
 				148,
 				149,
 				150,
 				151,
-				152,
 				153,
 				154,
 				155,
@@ -277,16 +273,27 @@
 				160,
 				161,
 				162,
+				163,
+				164,
 				165,
+				166,
 				167,
 				168,
-				170,
+				169,
 				172,
 				174,
-				176,
-				178,
-				180,
-				182
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				187,
+				189,
+				191,
+				193,
+				195,
+				197
 			]
 		},
 		{
@@ -401,7 +408,7 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				21
+				23
 			]
 		}
 	],
@@ -473,11 +480,10 @@
 				6,
 				7,
 				8,
-				22,
-				23,
+				9,
 				24,
+				25,
 				26,
-				27,
 				28,
 				29,
 				30,
@@ -500,8 +506,8 @@
 				47,
 				48,
 				49,
+				50,
 				51,
-				52,
 				53,
 				54,
 				55,
@@ -541,30 +547,38 @@
 				89,
 				90,
 				91,
-				115,
-				116,
-				118,
-				120,
-				121,
-				145,
-				163,
-				164,
-				166,
-				169,
+				92,
+				93,
+				94,
+				95,
+				96,
+				122,
+				123,
+				125,
+				127,
+				128,
+				152,
+				170,
 				171,
 				173,
-				175,
-				177,
-				179,
-				181,
-				183
+				176,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				190,
+				192,
+				194,
+				196,
+				198
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				9,
 				10,
 				11,
 				12,
@@ -576,11 +590,8 @@
 				18,
 				19,
 				20,
-				93,
-				94,
-				95,
-				96,
-				97,
+				21,
+				22,
 				98,
 				99,
 				100,
@@ -598,15 +609,15 @@
 				112,
 				113,
 				114,
+				115,
+				116,
 				117,
+				118,
 				119,
-				122,
-				123,
+				120,
+				121,
 				124,
-				125,
 				126,
-				127,
-				128,
 				129,
 				130,
 				131,
@@ -623,13 +634,13 @@
 				142,
 				143,
 				144,
+				145,
 				146,
 				147,
 				148,
 				149,
 				150,
 				151,
-				152,
 				153,
 				154,
 				155,
@@ -640,32 +651,48 @@
 				160,
 				161,
 				162,
+				163,
+				164,
 				165,
+				166,
 				167,
 				168,
-				170,
+				169,
 				172,
 				174,
-				176,
-				178,
-				180,
-				182
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				187,
+				189,
+				191,
+				193,
+				195,
+				197
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				21,
-				25,
-				50,
-				92,
-				184
+				23,
+				27,
+				52,
+				97,
+				199
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/adc.h",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"path" : "Core/Inc/dma.h",
@@ -710,6 +737,12 @@
 			"backtrace" : 1,
 			"path" : "Core/Inc/usart.h",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/adc.c",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
@@ -946,6 +979,16 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h",
 			"sourceGroupIndex" : 0
 		},
@@ -1061,6 +1104,11 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h",
 			"sourceGroupIndex" : 0
 		},
@@ -1148,6 +1196,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -1599,6 +1659,17 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "myDrivers/myAdc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "myDrivers/myAdc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "myDrivers/myButton.c",
 			"sourceGroupIndex" : 1
 		},
@@ -1616,6 +1687,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "myDrivers/myGpio.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "myDrivers/myLib.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "myDrivers/myLib.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -1660,6 +1742,28 @@
 		{
 			"backtrace" : 1,
 			"path" : "myGui/menu.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "myGui/pageGui_serial.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "myGui/pageGui_serial.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "myGui/pageGui_volt.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "myGui/pageGui_volt.h",
 			"sourceGroupIndex" : 0
 		},
 		{

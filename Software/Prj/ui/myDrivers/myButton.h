@@ -20,6 +20,13 @@
 #define SHORT_TICKS       (300 /TICKS_INTERVAL)
 #define LONG_TICKS        (1000 /TICKS_INTERVAL)
 
+typedef enum {
+    StateIDLE = 0,
+    StateDOWN_UP,
+    StateDOUBLE_CLICK,
+    StateUP,
+    StateLONG_PRESS_HOLD,
+}State;
 
 typedef void (*BtnCallback)(void*);
 
@@ -58,7 +65,7 @@ void button_attach(struct Button* handle, PressEvent event, BtnCallback cb);
 PressEvent get_button_event(struct Button* handle);
 int  button_start(struct Button* handle);
 void button_stop(struct Button* handle);
-void button_ticks(void);
+void os_Button_5ms(void);
 
 #ifdef __cplusplus
 }

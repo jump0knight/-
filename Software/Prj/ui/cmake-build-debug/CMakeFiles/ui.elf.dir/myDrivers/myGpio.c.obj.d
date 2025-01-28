@@ -52,6 +52,9 @@ CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj: \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_mdma.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_exti.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_cortex.h \
+ D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_adc.h \
+ D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_ll_adc.h \
+ D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_adc_ex.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_flash.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_flash_ex.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_hsem.h \
@@ -69,9 +72,11 @@ CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj: \
  D:\desktop_document\ui\myApp/bsp_system.h \
  D:\desktop_document\ui\myApp/bsp_key.h \
  D:\desktop_document\ui\myApp/bsp_uart.h \
+ D:\desktop_document\ui\myDrivers/myLib.h \
  D:\desktop_document\ui\myDrivers/myGpio.h \
  D:\desktop_document\ui\myDrivers/myButton.h \
  D:\desktop_document\ui\myDrivers/myTimeIR.h \
+ D:\desktop_document\ui\myDrivers/myAdc.h \
  D:\desktop_document\ui\myDrivers/myRingBuffer.h \
  D:\desktop_document\ui\myDrivers/myStreamParser.h \
  D:\desktop_document\ui\myDrivers/myRingBuffer.h \

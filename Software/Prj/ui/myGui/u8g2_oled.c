@@ -21,7 +21,8 @@ uint8_t u8x8_byte_4wire_hw_spi(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int,void *
     {
         case U8X8_MSG_BYTE_SEND: /*通过SPI发送arg_int个字节数据*/
           HAL_SPI_Transmit_DMA(&hspi2, (uint8_t *)arg_ptr, arg_int);while(hspi2.TxXferCount);
-			//使用DMA可以将上面的注释解除，把下面不带DMA的给注释掉
+			// 使用DMA可以将上面的注释解除，把下面不带DMA的给注释掉
+            // 其实不是特殊需求，不推荐使用DMA 显示没必要太快 使用spi + DMA 优先级最好要高
 //			HAL_SPI_Transmit(&hspi2,(uint8_t *)arg_ptr,arg_int,200);
             break;
         case U8X8_MSG_BYTE_INIT: /*初始化函数*/

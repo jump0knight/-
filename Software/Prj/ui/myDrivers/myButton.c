@@ -9,14 +9,17 @@
   */
 #include "myButton.h"
 
+/** 定义事件回调宏 EVENT_CB
+  * 该宏用于简化事件回调的调用过程
+  * 它检查指定事件是否有对应的回调函数，如果有，则调用该回调函数
+  *
+  * @param ev 事件标识符，用于指定要处理的事件
+  */
 #define EVENT_CB(ev)   if(handle->cb[ev])handle->cb[ev]((void*)handle)
-#define PRESS_REPEAT_MAX_NUM  15  /*!< 按键重复次数的最大值 */
-
+#define PRESS_REPEAT_MAX_NUM  (15)  /*!< 按键重复次数的最大值 */
 // 按钮句柄链表头指针
 static struct Button* head_handle = NULL;
-
 static void button_handler(struct Button* handle);
-
 /**
   * @brief  初始化按钮句柄结构体。
   * @param  handle: 按钮句柄结构体指针。
@@ -25,8 +28,7 @@ static void button_handler(struct Button* handle);
   * @param  button_id: 按钮ID。
   * @retval None
   */
-void button_init(struct Button* handle, uint8_t(*pin_level)(uint8_t), uint8_t active_level, uint8_t button_id)
-{
+void button_init(struct Button* handle, uint8_t(*pin_level)(uint8_t), uint8_t active_level, uint8_t button_id){
     memset(handle, 0, sizeof(struct Button));
     handle->event = (uint8_t)NONE_PRESS;
     handle->hal_button_Level = pin_level;
@@ -42,33 +44,26 @@ void button_init(struct Button* handle, uint8_t(*pin_level)(uint8_t), uint8_t ac
   * @param  cb: 回调函数指针。
   * @retval None
   */
-void button_attach(struct Button* handle, PressEvent event, BtnCallback cb)
-{
+void button_attach(struct Button* handle, PressEvent event, BtnCallback cb){
     handle->cb[event] = cb;
 }
-
 /**
   * @brief  查询发生的按钮事件。
   * @param  handle: 按钮句柄结构体指针。
   * @retval 返回按钮事件类型。
   */
-PressEvent get_button_event(struct Button* handle)
-{
+PressEvent get_button_event(struct Button* handle){
     return (PressEvent)(handle->event);
 }
-
 /**
   * @brief  按钮驱动核心函数，负责状态机的运行。
   * @param  handle: 按钮句柄结构体指针。
   * @retval None
   */
-static void button_handler(struct Button* handle)
-{
+static void button_handler(struct Button* handle){
     uint8_t read_gpio_level = handle->hal_button_Level(handle->button_id);
-
     // 增加计数器工作时间
-    if((handle->state) > 0) handle->ticks++;
-
+    if((handle->state) > StateIDLE) handle->ticks++;
     /*------------button debounce handle 消抖---------------*/
     if(read_gpio_level != handle->button_level) { //not equal to prev one
         //continue read 3 times same new level change
@@ -79,35 +74,34 @@ static void button_handler(struct Button* handle)
     } else { //level not change ,counter reset.
         handle->debounce_cnt = 0;
     }
-
     /*-----------------State machine 状态机-------------------*/
     switch (handle->state){
-        case 0:
+        case StateIDLE:
             if(handle->button_level == handle->active_level) {	// 按键按下
                 handle->event = (uint8_t)PRESS_DOWN;
                 EVENT_CB(PRESS_DOWN);
                 handle->ticks = 0;
                 handle->repeat = 1;
-                handle->state = 1;
+                handle->state = StateDOWN_UP;
             } else {
                 handle->event = (uint8_t)NONE_PRESS;
             }
             break;
 
-        case 1:
+        case StateDOWN_UP:
             if(handle->button_level != handle->active_level) { // 按键释放
                 handle->event = (uint8_t)PRESS_UP;
                 EVENT_CB(PRESS_UP);
                 handle->ticks = 0;
-                handle->state = 2;
+                handle->state = StateDOUBLE_CLICK;
             } else if(handle->ticks > LONG_TICKS) {
                 handle->event = (uint8_t)LONG_PRESS_START;
                 EVENT_CB(LONG_PRESS_START);
-                handle->state = 5;
+                handle->state = StateLONG_PRESS_HOLD;
             }
             break;
 
-        case 2:
+        case StateDOUBLE_CLICK:
             if(handle->button_level == handle->active_level) { // 再次按下
                 handle->event = (uint8_t)PRESS_DOWN;
                 EVENT_CB(PRESS_DOWN);
@@ -116,7 +110,7 @@ static void button_handler(struct Button* handle)
                 }
                 EVENT_CB(PRESS_REPEAT); // 重复触发
                 handle->ticks = 0;
-                handle->state = 3;
+                handle->state = StateUP;
             } else if(handle->ticks > SHORT_TICKS) { // 超时释放
                 if(handle->repeat == 1) {
                     handle->event = (uint8_t)SINGLE_CLICK;
@@ -125,48 +119,46 @@ static void button_handler(struct Button* handle)
                     handle->event = (uint8_t)DOUBLE_CLICK;
                     EVENT_CB(DOUBLE_CLICK); // 重复触发
                 }
-                handle->state = 0;
+                handle->state = StateIDLE;
             }
             break;
 
-        case 3:
+        case StateUP:
             if(handle->button_level != handle->active_level) { // 按键释放
                 handle->event = (uint8_t)PRESS_UP;
                 EVENT_CB(PRESS_UP);
                 if(handle->ticks < SHORT_TICKS) {
                     handle->ticks = 0;
-                    handle->state = 2; // 重复按压
+                    handle->state = StateDOUBLE_CLICK; // 重复按压
                 } else {
-                    handle->state = 0;
+                    handle->state = StateIDLE;
                 }
             } else if(handle->ticks > SHORT_TICKS) { // 按下保持时间在SHORT_TICKS和LONG_TICKS之间
-                handle->state = 1;
+                handle->state = StateDOWN_UP;
             }
             break;
 
-        case 5:
+        case StateLONG_PRESS_HOLD:
             if(handle->button_level == handle->active_level) {
                 handle->event = (uint8_t)LONG_PRESS_HOLD;// 持续长按触发
                 EVENT_CB(LONG_PRESS_HOLD);
             } else {
                 handle->event = (uint8_t)PRESS_UP;// 按键释放
                 EVENT_CB(PRESS_UP);
-                handle->state = 0;// 重置状态
+                handle->state = StateIDLE;// 重置状态
             }
             break;
         default:
-            handle->state = 0;// 重置状态
+            handle->state = StateIDLE;// 重置状态
             break;
     }
 }
-
 /**
   * @brief  启动按钮工作，将句柄加入工作列表。
   * @param  handle: 目标句柄结构体指针。
   * @retval 0: 成功。 -1: 句柄已存在。
   */
-int button_start(struct Button* handle)
-{
+int button_start(struct Button* handle){
     struct Button* target = head_handle;
     while(target) {
         if(target == handle) return -1;	// 已经存在
@@ -182,8 +174,7 @@ int button_start(struct Button* handle)
   * @param  handle: 目标句柄结构体指针。
   * @retval None
   */
-void button_stop(struct Button* handle)
-{
+void button_stop(struct Button* handle){
     struct Button** curr;
     for(curr = &head_handle; *curr; ) {
         struct Button* entry = *curr;
@@ -196,14 +187,12 @@ void button_stop(struct Button* handle)
         }
     }
 }
-
 /**
   * @brief  背景定时器，每5ms调用一次。
   * @param  None.
   * @retval None
   */
-void button_ticks(void)
-{
+void os_Button_5ms(void){
     struct Button* target;
     for(target=head_handle; target; target=target->next) {
         button_handler(target);

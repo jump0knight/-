@@ -26,9 +26,11 @@
 #include "bsp_uart.h"
 
 //myDrivers
+#include "myLib.h"
 #include "myGpio.h"
 #include "myButton.h"
 #include "myTimeIR.h"
+#include "myAdc.h"
 #include "myRingBuffer.h"
 #include "myStreamParser.h"
 
@@ -36,7 +38,8 @@
 #include "u8g2_oled.h"
 #include "menu.h"
 
+
 void loop(void);
 void os_200hz_task(void);
-
+void task_debug(void);
 #endif //INC_002_G_BSP_SYSTEM_H

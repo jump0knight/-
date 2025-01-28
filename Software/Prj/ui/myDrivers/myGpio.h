@@ -10,11 +10,17 @@
 
 #ifndef INC_002_G_MYGPIO_H
 #define INC_002_G_MYGPIO_H
+
 #include "bsp_system.h"
+
 typedef enum {
     GPIO_LOW = 0,  // 低电平点亮
     GPIO_HIGH = 1  // 高电平点亮
 } GPIO_Level;
+
+#define GPIO_CONTROL_HIGH(port, pin)   HAL_GPIO_WritePin(port, pin, GPIO_PIN_SET)
+
+#define GPIO_CONTROL_LOW(port, pin)    HAL_GPIO_WritePin(port, pin, GPIO_PIN_RESET)
 
 typedef struct                   //结构体对齐
 {
@@ -29,8 +35,6 @@ typedef struct                   //结构体对齐
     float light_on_percent ;      // 4字节 - 单个周期内点亮时间百分比
     GPIO_Level level;            // 点亮电平类型，高电平/低电平
 } _gpio_control;
-
-
 
 void myGpio_init(void);
 

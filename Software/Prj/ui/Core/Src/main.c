@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
 #include "dma.h"
 #include "memorymap.h"
 #include "spi.h"
@@ -98,6 +99,7 @@ int main(void)
   MX_SPI2_Init();
   MX_TIM14_Init();
   MX_USART1_UART_Init();
+  MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
     loop();
   /* USER CODE END 2 */

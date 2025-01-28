@@ -128,6 +128,30 @@ ui.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/build
 .PHONY : ui.elf/fast
 
+Core/Src/adc.obj: Core/Src/adc.c.obj
+.PHONY : Core/Src/adc.obj
+
+# target to build an object file
+Core/Src/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj
+.PHONY : Core/Src/adc.c.obj
+
+Core/Src/adc.i: Core/Src/adc.c.i
+.PHONY : Core/Src/adc.i
+
+# target to preprocess a source file
+Core/Src/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Core/Src/adc.c.i
+.PHONY : Core/Src/adc.c.i
+
+Core/Src/adc.s: Core/Src/adc.c.s
+.PHONY : Core/Src/adc.s
+
+# target to generate assembly for a file
+Core/Src/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Core/Src/adc.c.s
+.PHONY : Core/Src/adc.c.s
+
 Core/Src/dma.obj: Core/Src/dma.c.obj
 .PHONY : Core/Src/dma.obj
 
@@ -447,6 +471,54 @@ Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.s: Drivers/STM32H7xx_HAL_Driver/S
 Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c.s
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.obj
+
+# target to build an object file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.obj
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.i: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.i
+
+# target to preprocess a source file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.i
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.i
+
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.s: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.s
+.PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c.s
 
 Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.obj: Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
 .PHONY : Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.obj
@@ -2032,6 +2104,30 @@ myApp/scheduler.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myApp/scheduler.c.s
 .PHONY : myApp/scheduler.c.s
 
+myDrivers/myAdc.obj: myDrivers/myAdc.c.obj
+.PHONY : myDrivers/myAdc.obj
+
+# target to build an object file
+myDrivers/myAdc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.obj
+.PHONY : myDrivers/myAdc.c.obj
+
+myDrivers/myAdc.i: myDrivers/myAdc.c.i
+.PHONY : myDrivers/myAdc.i
+
+# target to preprocess a source file
+myDrivers/myAdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.i
+.PHONY : myDrivers/myAdc.c.i
+
+myDrivers/myAdc.s: myDrivers/myAdc.c.s
+.PHONY : myDrivers/myAdc.s
+
+# target to generate assembly for a file
+myDrivers/myAdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myAdc.c.s
+.PHONY : myDrivers/myAdc.c.s
+
 myDrivers/myButton.obj: myDrivers/myButton.c.obj
 .PHONY : myDrivers/myButton.obj
 
@@ -2079,6 +2175,30 @@ myDrivers/myGpio.s: myDrivers/myGpio.c.s
 myDrivers/myGpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.s
 .PHONY : myDrivers/myGpio.c.s
+
+myDrivers/myLib.obj: myDrivers/myLib.c.obj
+.PHONY : myDrivers/myLib.obj
+
+# target to build an object file
+myDrivers/myLib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj
+.PHONY : myDrivers/myLib.c.obj
+
+myDrivers/myLib.i: myDrivers/myLib.c.i
+.PHONY : myDrivers/myLib.i
+
+# target to preprocess a source file
+myDrivers/myLib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myLib.c.i
+.PHONY : myDrivers/myLib.c.i
+
+myDrivers/myLib.s: myDrivers/myLib.c.s
+.PHONY : myDrivers/myLib.s
+
+# target to generate assembly for a file
+myDrivers/myLib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myDrivers/myLib.c.s
+.PHONY : myDrivers/myLib.c.s
 
 myDrivers/myRingBuffer.obj: myDrivers/myRingBuffer.c.obj
 .PHONY : myDrivers/myRingBuffer.obj
@@ -2176,6 +2296,54 @@ myGui/menu.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myGui/menu.c.s
 .PHONY : myGui/menu.c.s
 
+myGui/pageGui_serial.obj: myGui/pageGui_serial.c.obj
+.PHONY : myGui/pageGui_serial.obj
+
+# target to build an object file
+myGui/pageGui_serial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
+.PHONY : myGui/pageGui_serial.c.obj
+
+myGui/pageGui_serial.i: myGui/pageGui_serial.c.i
+.PHONY : myGui/pageGui_serial.i
+
+# target to preprocess a source file
+myGui/pageGui_serial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.i
+.PHONY : myGui/pageGui_serial.c.i
+
+myGui/pageGui_serial.s: myGui/pageGui_serial.c.s
+.PHONY : myGui/pageGui_serial.s
+
+# target to generate assembly for a file
+myGui/pageGui_serial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.s
+.PHONY : myGui/pageGui_serial.c.s
+
+myGui/pageGui_volt.obj: myGui/pageGui_volt.c.obj
+.PHONY : myGui/pageGui_volt.obj
+
+# target to build an object file
+myGui/pageGui_volt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
+.PHONY : myGui/pageGui_volt.c.obj
+
+myGui/pageGui_volt.i: myGui/pageGui_volt.c.i
+.PHONY : myGui/pageGui_volt.i
+
+# target to preprocess a source file
+myGui/pageGui_volt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.i
+.PHONY : myGui/pageGui_volt.c.i
+
+myGui/pageGui_volt.s: myGui/pageGui_volt.c.s
+.PHONY : myGui/pageGui_volt.s
+
+# target to generate assembly for a file
+myGui/pageGui_volt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ui.elf.dir\build.make CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.s
+.PHONY : myGui/pageGui_volt.c.s
+
 myGui/u8g2_oled.obj: myGui/u8g2_oled.c.obj
 .PHONY : myGui/u8g2_oled.obj
 
@@ -2209,6 +2377,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ui.elf
+	@echo ... Core/Src/adc.obj
+	@echo ... Core/Src/adc.i
+	@echo ... Core/Src/adc.s
 	@echo ... Core/Src/dma.obj
 	@echo ... Core/Src/dma.i
 	@echo ... Core/Src/dma.s
@@ -2249,6 +2420,12 @@ help:
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.s
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.obj
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.i
+	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.s
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.obj
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.i
 	@echo ... Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.s
@@ -2447,12 +2624,18 @@ help:
 	@echo ... myApp/scheduler.obj
 	@echo ... myApp/scheduler.i
 	@echo ... myApp/scheduler.s
+	@echo ... myDrivers/myAdc.obj
+	@echo ... myDrivers/myAdc.i
+	@echo ... myDrivers/myAdc.s
 	@echo ... myDrivers/myButton.obj
 	@echo ... myDrivers/myButton.i
 	@echo ... myDrivers/myButton.s
 	@echo ... myDrivers/myGpio.obj
 	@echo ... myDrivers/myGpio.i
 	@echo ... myDrivers/myGpio.s
+	@echo ... myDrivers/myLib.obj
+	@echo ... myDrivers/myLib.i
+	@echo ... myDrivers/myLib.s
 	@echo ... myDrivers/myRingBuffer.obj
 	@echo ... myDrivers/myRingBuffer.i
 	@echo ... myDrivers/myRingBuffer.s
@@ -2465,6 +2648,12 @@ help:
 	@echo ... myGui/menu.obj
 	@echo ... myGui/menu.i
 	@echo ... myGui/menu.s
+	@echo ... myGui/pageGui_serial.obj
+	@echo ... myGui/pageGui_serial.i
+	@echo ... myGui/pageGui_serial.s
+	@echo ... myGui/pageGui_volt.obj
+	@echo ... myGui/pageGui_volt.i
+	@echo ... myGui/pageGui_volt.s
 	@echo ... myGui/u8g2_oled.obj
 	@echo ... myGui/u8g2_oled.i
 	@echo ... myGui/u8g2_oled.s

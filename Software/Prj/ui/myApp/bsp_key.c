@@ -13,13 +13,12 @@ enum Button_IDs {
     btn1_id=1,
     btn2_id,
     btn3_id,
-    btn4_id,
 };
 
 struct Button btn1;
 struct Button btn2;
 struct Button btn3;
-struct Button btn4;
+
 /**
   * @brief  read_button_GPIO 按键读取函数
   * @note   None
@@ -89,14 +88,14 @@ void button_callback(void* btn) {
 }
 
 /**
-  * @brief  mybutton_init 按键句柄初始化集合
+  * @brief  myButton_init 按键句柄初始化集合
   * @note   None
   * @param  None
   * @retval None
   */
-void mybutton_init(void)
+void myButton_init(void)
 {
-    button_init(&btn1, read_button_GPIO, 0, btn1_id);
+    button_init(&btn1, read_button_GPIO, GPIO_LOW_LEVEL, btn1_id);
     button_attach(&btn1, PRESS_DOWN,       button_callback);
     button_attach(&btn1, PRESS_UP,         button_callback);
 //	button_attach(&btn1, PRESS_REPEAT,     button_callback);
@@ -106,7 +105,7 @@ void mybutton_init(void)
     button_attach(&btn1, LONG_PRESS_HOLD, button_callback);
     button_start(&btn1);
 
-    button_init(&btn2, read_button_GPIO, 0, btn3_id);
+    button_init(&btn2, read_button_GPIO, GPIO_LOW_LEVEL, btn3_id);
     button_attach(&btn2, PRESS_DOWN,       button_callback);
     button_attach(&btn2, PRESS_UP,         button_callback);
 //	button_attach(&btn2, PRESS_REPEAT,     button_callback);
@@ -115,7 +114,7 @@ void mybutton_init(void)
     button_attach(&btn2, LONG_PRESS_START, button_callback);
     button_start(&btn2);
 
-    button_init(&btn3, read_button_GPIO, 0, btn2_id);
+    button_init(&btn3, read_button_GPIO, GPIO_LOW_LEVEL, btn2_id);
     button_attach(&btn3, PRESS_DOWN,       button_callback);
     button_attach(&btn3, PRESS_UP,         button_callback);
 //	button_attach(&btn2, PRESS_REPEAT,     button_callback);

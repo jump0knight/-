@@ -23,6 +23,6 @@ CMake Deprecation Warning:
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (1.9s)
+-- Configuring done (6.2s)
 -- Generating done (0.0s)
 -- Build files have been written to: D:/desktop_document/ui/cmake-build-debug

@@ -40,6 +40,9 @@ CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj: 
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_mdma.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_exti.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_cortex.h \
+ D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_adc.h \
+ D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_ll_adc.h \
+ D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_adc_ex.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_flash.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_flash_ex.h \
  D:\desktop_document\ui\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_hsem.h \

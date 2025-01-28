@@ -18,10 +18,9 @@ enum{
     UART_TX_IS_DONE ,
 };
 
-#define USE_PRINT_DMA 1
+#define USE_PRINT_DMA (1)
 #if USE_PRINT_DMA
     #define printf MY_LOG
-    int MY_LOG(UART_HandleTypeDef *huart,const char *format,...);
 #else
 //    #define printf(...) \#ifdef __GNUC__
 //    #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
@@ -35,6 +34,7 @@ enum{
 //        return ch;
 //    }
 #endif
+int MY_LOG(UART_HandleTypeDef *huart,const char *format,...);
 
 extern UART_HandleTypeDef huart1;
 extern DMA_HandleTypeDef hdma_usart1_rx;
@@ -45,5 +45,7 @@ void myUart_init(void);
 void task_uart_proc(void);
 
 void HAL_UART1_RX_Callback(void);
+void MX_USART1_UART_BUND_Init(uint32_t bund);
+
 
 #endif //UI_BSP_UART_H

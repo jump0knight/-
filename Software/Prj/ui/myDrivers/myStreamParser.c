@@ -55,12 +55,9 @@ void SParser_Init(pSParser_t parser, char* headStr, char* tailStr, char* divStr,
     parser->divStr = divStr;
     parser->divStrLen = divStr == NULL ? 0 : strlen(divStr);
     parser->typeList = typeList;
-
     parser->chPtr[0] = headStr;
     parser->typePtr = parser->typeList;
-
     parser->buff[0] = parser->buff[1] = parser->buff[2] = parser->buff[3] = 0;
-
     parser->mState = FindHead;
 }
 

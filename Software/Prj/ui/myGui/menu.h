@@ -5,6 +5,8 @@
 #include "stdbool.h"
 #include "string.h"
 #include "math.h"
+
+
 //总目录，缩进表示页面层级
 //增加或减少，需要修改对应的数值
 enum
@@ -15,10 +17,9 @@ enum
     M_MAIN,
     M_EDITOR,
     M_KNOB,
-    M_KRF,
-    M_KPF,
     M_VOLT,
-    M_SERIAL,
+    M_SERIAL, //  表示主界面的磁贴显示
+    M_SERIAL_SHOW, // SHOW  表示子界面的显示
     M_SETTING,
     M_ABOUT,
 };
@@ -79,6 +80,21 @@ typedef struct MENU
 #define LIST_TEXT_S 4                       // 列表每行文字的上边距，左边距和右边距，下边距由它和字体高度和行高度决定
 #define LIST_BAR_W 5                        // 列表进度条宽度，需要是奇数，因为正中间有1像素宽度的线
 #define LIST_BOX_R 0.5                      // 列表选择框圆角
+
+typedef struct{
+    uint8_t line_n; // = DISP_H / LIST_LINE_H;
+    int16_t temp;
+    bool loop;
+    float y;
+    float y_trg;
+    float box_x;
+    float box_x_trg;
+    float box_y;
+    float box_y_trg[UI_DEPTH];
+    float bar_y;
+    float bar_y_trg;
+} list_xy;
+extern list_xy list;
 
 // 超窄行高度测试
 /*
@@ -157,14 +173,15 @@ typedef void (*fun_callback_t)(int number);//声明回调函数指针
 extern M_BTN_INFO btn;
 extern M_UI ui;
 
-char *myitoa(uint32_t num);
-char *ftoa(float num);
 //通知需要存储参数
 void eeprom_notify_change(void);
 // 动画函数
 void animation(float *a, float *a_trg, uint8_t n);
 // 显示数值的初始化
 void check_box_v_init(uint8_t *param);
+void check_box_m_init(uint8_t *param);
+void check_box_s_init(uint8_t *param, uint8_t *param_p);
+void check_box_s_select(uint8_t val, uint8_t pos);
 // 列表类页面通用显示函数
 void list_show(M_SELECT arr[], uint8_t ui_index);
 // 列表类页面旋转时判断通用函数
@@ -175,6 +192,8 @@ void window_value_init(char title[], uint8_t select, uint8_t *value, uint8_t max
 void confirm_window_value_init(char title[], uint8_t _select_btn, fun_callback_t _cb, M_SELECT *bg, uint8_t index);
 
 void gui_btn_send_signal(uint8_t btn_id,uint8_t event);
+
+void check_box_m_select(uint8_t param);
 
 void task_gui_proc(void);
 void myGui_init(void);

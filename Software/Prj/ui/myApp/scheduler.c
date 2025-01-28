@@ -20,6 +20,8 @@ static task_t scheduler_task[] ={
     {task_led_proc,         5,          0},
     {task_gui_proc,         5,          0},
     {task_uart_proc,        100,        0},
+    {task_adc_proc,         100,        0},
+    {task_debug,            100,        0},
 };
 /**
  * @brief 调度器初始化函数
@@ -37,7 +39,7 @@ void scheduler_run(void){
     // 遍历任务数组中的所有任务
     for (uint8_t i = 0; i < task_num; i++){
         // 获取当前的系统时间（毫秒）
-        uint32_t now_time = HAL_GetTick();
+        uint64_t now_time = HAL_GetTick();
         // 检查当前时间是否达到任务的执行时间
         if (now_time >= scheduler_task[i].rate_ms + scheduler_task[i].last_run){
             // 更新任务的上次运行时间为当前时间

@@ -13,8 +13,12 @@
 
 #include "bsp_system.h"
 
+enum {
+    GPIO_LOW_LEVEL = 0,
+    GPIO_HIGH_LEVEL
+};
 
-void mybutton_init(void);
+void myButton_init(void);
 
 
 #endif //INC_002_G_BSP_KEY_H

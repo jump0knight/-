@@ -106,6 +106,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/desktop_document/ui/Core/Inc/adc.h">
+			<Option target="ui.elf"/>
+		</Unit>
 		<Unit filename="D:/desktop_document/ui/Core/Inc/dma.h">
 			<Option target="ui.elf"/>
 		</Unit>
@@ -131,6 +134,9 @@
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Core/Inc/usart.h">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/Core/Src/adc.c">
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Core/Src/dma.c">
@@ -265,6 +271,12 @@
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h">
 			<Option target="ui.elf"/>
 		</Unit>
+		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h">
+			<Option target="ui.elf"/>
+		</Unit>
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h">
 			<Option target="ui.elf"/>
 		</Unit>
@@ -334,6 +346,9 @@
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h">
 			<Option target="ui.elf"/>
 		</Unit>
+		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h">
+			<Option target="ui.elf"/>
+		</Unit>
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h">
 			<Option target="ui.elf"/>
 		</Unit>
@@ -386,6 +401,12 @@
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c">
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
@@ -619,6 +640,12 @@
 		<Unit filename="D:/desktop_document/ui/myApp/scheduler.h">
 			<Option target="ui.elf"/>
 		</Unit>
+		<Unit filename="D:/desktop_document/ui/myDrivers/myAdc.c">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/myDrivers/myAdc.h">
+			<Option target="ui.elf"/>
+		</Unit>
 		<Unit filename="D:/desktop_document/ui/myDrivers/myButton.c">
 			<Option target="ui.elf"/>
 		</Unit>
@@ -629,6 +656,12 @@
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/myDrivers/myGpio.h">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/myDrivers/myLib.c">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/myDrivers/myLib.h">
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/myDrivers/myRingBuffer.c">
@@ -653,6 +686,18 @@
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/myGui/menu.h">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/myGui/pageGui_serial.c">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/myGui/pageGui_serial.h">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/myGui/pageGui_volt.c">
+			<Option target="ui.elf"/>
+		</Unit>
+		<Unit filename="D:/desktop_document/ui/myGui/pageGui_volt.h">
 			<Option target="ui.elf"/>
 		</Unit>
 		<Unit filename="D:/desktop_document/ui/myGui/u8g2_oled.c">
