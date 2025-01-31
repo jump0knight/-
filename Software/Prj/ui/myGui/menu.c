@@ -142,7 +142,6 @@ M_SELECT editor_menu[] =
                 {"- Function 1"},
                 {"- Function 2"},
                 {"- Function 3"},
-                {"- Knob"},
         };
 //添加界面第五部分 添加子界面显示列表，仿照其他函数显示
 M_SELECT setting_menu[] =

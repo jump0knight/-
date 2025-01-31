@@ -8679,7 +8679,7 @@ LOAD C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/
 .iplt           0x08015c50        0x0
  .iplt          0x08015c50        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08015c50     0x1d10
+.rodata         0x08015c50     0x1d08
                 0x08015c50                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
@@ -8728,127 +8728,127 @@ LOAD C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/
                 0x08016d80       0x35 CMakeFiles/ui.elf.dir/U8g2/u8x8_d_ssd1306_128x64_noname.c.obj
  *fill*         0x08016db5        0x3 
  .rodata.task_uart_proc.str1.4
-                0x08016db8      0x533 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
+                0x08016db8      0x52b CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
                                  0x59 (size before relaxing)
  .rodata.myUart_init.str1.4
-                0x080172eb        0xa CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
+                0x080172e3        0xa CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
  .rodata.ditoa.str1.4
-                0x080172eb        0x3 CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj
+                0x080172e3        0x3 CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj
  .rodata.ftoa.str1.4
-                0x080172eb        0x5 CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj
+                0x080172e3        0x5 CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj
  .rodata.SParser_Parse.str1.4
-                0x080172eb       0x38 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj
+                0x080172e3       0x38 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj
  .rodata.str1.4
-                0x080172eb        0x5 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj
+                0x080172e3        0x5 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj
  .rodata.list_draw_krf.str1.4
-                0x080172eb        0xc CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x080172e3        0xc CMakeFiles/ui.elf.dir/myGui/menu.c.obj
  .rodata.list_draw_kpf.str1.4
-                0x080172eb        0x6 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x080172e3        0x6 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
  .rodata.window_show.str1.4
-                0x080172eb        0x9 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x080172e3        0x9 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
  .rodata.confirm_window_show.str1.4
-                0x080172eb        0x7 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x080172e3        0x7 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
  .rodata.setting_proc.str1.4
-                0x080172eb       0x50 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
- *fill*         0x080172eb        0x1 
+                0x080172e3       0x50 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+ *fill*         0x080172e3        0x1 
  .rodata.main_icon_pic
-                0x080172ec      0x258 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x080172ec                main_icon_pic
+                0x080172e4      0x258 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x080172e4                main_icon_pic
  .rodata.str1.4
-                0x08017544      0x1dd CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x0801753c      0x1d5 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
  .rodata.serial_pram_init.str1.4
-                0x08017544        0x2 CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
+                0x0801753c        0x2 CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
  .rodata.str1.4
-                0x08017544       0x61 CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
+                0x0801753c       0x61 CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
  .rodata.volt_show.str1.4
-                0x08017544        0x6 CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
+                0x0801753c        0x6 CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
  .rodata.str1.4
-                0x08017544        0xf CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
+                0x0801753c        0xf CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
  .rodata._svfprintf_r.str1.4
-                0x08017544       0x42 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-svfprintf.o)
+                0x0801753c       0x42 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-svfprintf.o)
  .rodata.zeroes.0
-                0x08017544       0x10 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-svfprintf.o)
+                0x0801753c       0x10 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-svfprintf.o)
  .rodata.blanks.1
-                0x08017554       0x10 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-svfprintf.o)
+                0x0801754c       0x10 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-svfprintf.o)
  .rodata.str1.4
-                0x08017564       0x4c C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-locale.o)
+                0x0801755c       0x4c C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-locale.o)
  .rodata._dtoa_r.str1.4
-                0x08017564       0x81 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-dtoa.o)
+                0x0801755c       0x81 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-dtoa.o)
  .rodata.__multadd.str1.4
-                0x08017564       0x6e C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mprec.o)
- .rodata.p05.0  0x08017564        0xc C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mprec.o)
+                0x0801755c       0x6e C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mprec.o)
+ .rodata.p05.0  0x0801755c        0xc C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mprec.o)
  .rodata.__mprec_bigtens
-                0x08017570       0x28 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mprec.o)
-                0x08017570                __mprec_bigtens
+                0x08017568       0x28 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mprec.o)
+                0x08017568                __mprec_bigtens
  .rodata.__mprec_tens
-                0x08017598       0xc8 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mprec.o)
-                0x08017598                __mprec_tens
+                0x08017590       0xc8 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mprec.o)
+                0x08017590                __mprec_tens
  .rodata._ctype_
-                0x08017660      0x101 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-ctype_.o)
-                0x08017660                _ctype_
+                0x08017658      0x101 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-ctype_.o)
+                0x08017658                _ctype_
  .rodata.__assert_func.str1.4
-                0x08017761       0x43 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-assert.o)
+                0x08017759       0x43 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-assert.o)
  .rodata._vfiprintf_r.str1.4
-                0x08017761       0x2f C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-vfiprintf.o)
- *fill*         0x08017761        0x3 
+                0x08017759       0x2f C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-vfiprintf.o)
+ *fill*         0x08017759        0x3 
  .rodata.zeroes.0
-                0x08017764       0x10 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-vfiprintf.o)
+                0x0801775c       0x10 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-vfiprintf.o)
  .rodata.blanks.1
-                0x08017774       0x10 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-vfiprintf.o)
+                0x0801776c       0x10 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-vfiprintf.o)
  .rodata.npio2_hw
-                0x08017784       0x80 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a(libm_a-e_rem_pio2.o)
+                0x0801777c       0x80 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a(libm_a-e_rem_pio2.o)
  .rodata.two_over_pi
-                0x08017804      0x108 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a(libm_a-e_rem_pio2.o)
- *fill*         0x0801790c        0x4 
- .rodata.PIo2   0x08017910       0x40 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a(libm_a-k_rem_pio2.o)
+                0x080177fc      0x108 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a(libm_a-e_rem_pio2.o)
+ *fill*         0x08017904        0x4 
+ .rodata.PIo2   0x08017908       0x40 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a(libm_a-k_rem_pio2.o)
  .rodata.init_jk
-                0x08017950       0x10 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a(libm_a-k_rem_pio2.o)
-                0x08017960                        . = ALIGN (0x4)
+                0x08017948       0x10 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a(libm_a-k_rem_pio2.o)
+                0x08017958                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08017960        0x8
-                0x08017960                        __exidx_start = .
+.ARM            0x08017958        0x8
+                0x08017958                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08017960        0x8 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-strcmp.o)
- .ARM.exidx     0x08017968        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-memcpy.o)
+ .ARM.exidx     0x08017958        0x8 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-strcmp.o)
+ .ARM.exidx     0x08017960        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-memcpy.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x08017968        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-strlen.o)
+ .ARM.exidx     0x08017960        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x08017968        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-memchr.o)
+ .ARM.exidx     0x08017960        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-memchr.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x08017968        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08017960        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x08017968                        __exidx_end = .
+                0x08017960                        __exidx_end = .
 
-.preinit_array  0x08017968        0x0
-                0x08017968                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08017960        0x0
+                0x08017960                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08017968                        PROVIDE (__preinit_array_end = .)
+                0x08017960                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08017968        0x8
-                0x08017968                        PROVIDE (__init_array_start = .)
+.init_array     0x08017960        0x8
+                0x08017960                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08017968        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x08017960        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x0801796c        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08017970                        PROVIDE (__init_array_end = .)
+ .init_array    0x08017964        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08017968                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x08017970        0x4
-                0x08017970                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08017968        0x4
+                0x08017968                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08017970        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08017974                        PROVIDE (__fini_array_end = .)
-                0x08017974                        _sidata = LOADADDR (.data)
+ .fini_array    0x08017968        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0801796c                        PROVIDE (__fini_array_end = .)
+                0x0801796c                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08017974        0x0
- .rel.iplt      0x08017974        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x0801796c        0x0
+ .rel.iplt      0x0801796c        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.data           0x24000000      0x9b0 load address 0x08017974
+.data           0x24000000      0x9a8 load address 0x0801796c
                 0x24000000                        . = ALIGN (0x4)
                 0x24000000                        _sdata = .
  *(.data)
@@ -8888,223 +8888,222 @@ LOAD C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/
                 0x24000224       0x48 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
                 0x24000224                setting_menu
  .data.editor_menu
-                0x2400026c       0x18 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x2400026c       0x14 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
                 0x2400026c                editor_menu
  .data.main_menu
-                0x24000284       0x14 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x24000284                main_menu
+                0x24000280       0x14 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x24000280                main_menu
  .data.serial_data
-                0x24000298       0x18 CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
-                0x24000298                serial_data
+                0x24000294       0x18 CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
+                0x24000294                serial_data
  .data.serial_menu
-                0x240002b0       0x1c CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
-                0x240002b0                serial_menu
+                0x240002ac       0x1c CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
+                0x240002ac                serial_menu
  .data.volt_menu
-                0x240002cc       0x10 CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
-                0x240002cc                volt_menu
+                0x240002c8       0x10 CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
+                0x240002c8                volt_menu
  .data.__malloc_sbrk_base
-                0x240002dc        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
-                0x240002dc                __malloc_sbrk_base
+                0x240002d8        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
+                0x240002d8                __malloc_sbrk_base
  .data.__malloc_trim_threshold
-                0x240002e0        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
-                0x240002e0                __malloc_trim_threshold
- *fill*         0x240002e4        0x4 
+                0x240002dc        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
+                0x240002dc                __malloc_trim_threshold
  .data.__malloc_av_
-                0x240002e8      0x408 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
-                0x240002e8                __malloc_av_
- .data.__sglue  0x240006f0        0xc C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o)
-                0x240006f0                __sglue
+                0x240002e0      0x408 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
+                0x240002e0                __malloc_av_
+ .data.__sglue  0x240006e8        0xc C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o)
+                0x240006e8                __sglue
  .data._impure_ptr
-                0x240006fc        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-impure.o)
-                0x240006fc                _impure_ptr
+                0x240006f4        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-impure.o)
+                0x240006f4                _impure_ptr
  .data._impure_data
-                0x24000700      0x140 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-impure.o)
-                0x24000700                _impure_data
+                0x240006f8      0x140 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-impure.o)
+                0x240006f8                _impure_data
  .data.__atexit_recursive_mutex
-                0x24000840        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
-                0x24000840                __atexit_recursive_mutex
+                0x24000838        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x24000838                __atexit_recursive_mutex
  .data.__global_locale
-                0x24000844      0x16c C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-locale.o)
-                0x24000844                __global_locale
+                0x2400083c      0x16c C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-locale.o)
+                0x2400083c                __global_locale
  *(.RamFunc)
  *(.RamFunc*)
-                0x240009b0                        . = ALIGN (0x4)
-                0x240009b0                        _edata = .
+                0x240009a8                        . = ALIGN (0x4)
+                0x240009a8                        _edata = .
 
 .tm_clone_table
-                0x240009b0        0x0 load address 0x08018324
+                0x240009a8        0x0 load address 0x08018314
  .tm_clone_table
-                0x240009b0        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x240009a8        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
  .tm_clone_table
-                0x240009b0        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
+                0x240009a8        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtend.o
 
-.igot.plt       0x240009b0        0x0 load address 0x08018324
- .igot.plt      0x240009b0        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x240009b0                        . = ALIGN (0x4)
+.igot.plt       0x240009a8        0x0 load address 0x08018314
+ .igot.plt      0x240009a8        0x0 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x240009a8                        . = ALIGN (0x4)
 
-.bss            0x240009b0     0x17e0 load address 0x08018324
-                0x240009b0                        _sbss = .
-                0x240009b0                        __bss_start__ = _sbss
+.bss            0x240009a8     0x17e0 load address 0x08018314
+                0x240009a8                        _sbss = .
+                0x240009a8                        __bss_start__ = _sbss
  *(.bss)
  *(.bss*)
  .bss.completed.1
-                0x240009b0        0x1 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
- *fill*         0x240009b1        0x3 
- .bss.object.0  0x240009b4       0x18 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x240009a8        0x1 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
+ *fill*         0x240009a9        0x3 
+ .bss.object.0  0x240009ac       0x18 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp/crtbegin.o
  .bss.hdma_adc1
-                0x240009cc       0x78 CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj
-                0x240009cc                hdma_adc1
- .bss.hadc1     0x24000a44       0x64 CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj
-                0x24000a44                hadc1
+                0x240009c4       0x78 CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj
+                0x240009c4                hdma_adc1
+ .bss.hadc1     0x24000a3c       0x64 CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj
+                0x24000a3c                hadc1
  .bss.hdma_spi2_tx
-                0x24000aa8       0x78 CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj
-                0x24000aa8                hdma_spi2_tx
- .bss.hspi2     0x24000b20       0x88 CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj
-                0x24000b20                hspi2
+                0x24000aa0       0x78 CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj
+                0x24000aa0                hdma_spi2_tx
+ .bss.hspi2     0x24000b18       0x88 CMakeFiles/ui.elf.dir/Core/Src/spi.c.obj
+                0x24000b18                hspi2
  .bss.__sbrk_heap_end
-                0x24000ba8        0x4 CMakeFiles/ui.elf.dir/Core/Src/sysmem.c.obj
- .bss.htim14    0x24000bac       0x4c CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj
-                0x24000bac                htim14
+                0x24000ba0        0x4 CMakeFiles/ui.elf.dir/Core/Src/sysmem.c.obj
+ .bss.htim14    0x24000ba4       0x4c CMakeFiles/ui.elf.dir/Core/Src/tim.c.obj
+                0x24000ba4                htim14
  .bss.hdma_usart1_tx
-                0x24000bf8       0x78 CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj
-                0x24000bf8                hdma_usart1_tx
+                0x24000bf0       0x78 CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj
+                0x24000bf0                hdma_usart1_tx
  .bss.hdma_usart1_rx
-                0x24000c70       0x78 CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj
-                0x24000c70                hdma_usart1_rx
- .bss.huart1    0x24000ce8       0x94 CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj
-                0x24000ce8                huart1
- .bss.uwTick    0x24000d7c        0x4 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x24000d7c                uwTick
- .bss.buf.0     0x24000d80      0x400 CMakeFiles/ui.elf.dir/U8g2/u8g2_d_memory.c.obj
- .bss.btn3      0x24001180       0x2c CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj
-                0x24001180                btn3
- .bss.btn2      0x240011ac       0x2c CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj
-                0x240011ac                btn2
- .bss.btn1      0x240011d8       0x2c CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj
-                0x240011d8                btn1
+                0x24000c68       0x78 CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj
+                0x24000c68                hdma_usart1_rx
+ .bss.huart1    0x24000ce0       0x94 CMakeFiles/ui.elf.dir/Core/Src/usart.c.obj
+                0x24000ce0                huart1
+ .bss.uwTick    0x24000d74        0x4 CMakeFiles/ui.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x24000d74                uwTick
+ .bss.buf.0     0x24000d78      0x400 CMakeFiles/ui.elf.dir/U8g2/u8g2_d_memory.c.obj
+ .bss.btn3      0x24001178       0x2c CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj
+                0x24001178                btn3
+ .bss.btn2      0x240011a4       0x2c CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj
+                0x240011a4                btn2
+ .bss.btn1      0x240011d0       0x2c CMakeFiles/ui.elf.dir/myApp/bsp_key.c.obj
+                0x240011d0                btn1
  .bss.SendBuff.0
-                0x24001204       0x80 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
+                0x240011fc       0x80 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
  .bss.usart_read_buffer
-                0x24001284       0x40 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
-                0x24001284                usart_read_buffer
+                0x2400127c       0x40 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
+                0x2400127c                usart_read_buffer
  .bss.usart_ringbuffer
-                0x240012c4       0x2c CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
-                0x240012c4                usart_ringbuffer
+                0x240012bc       0x2c CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
+                0x240012bc                usart_ringbuffer
  .bss.uart_rx_dma_buffer
-                0x240012f0       0x80 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
-                0x240012f0                uart_rx_dma_buffer
- .bss.task_num  0x24001370        0x1 CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj
-                0x24001370                task_num
- *fill*         0x24001371        0x3 
+                0x240012e8       0x80 CMakeFiles/ui.elf.dir/myApp/bsp_uart.c.obj
+                0x240012e8                uart_rx_dma_buffer
+ .bss.task_num  0x24001368        0x1 CMakeFiles/ui.elf.dir/myApp/scheduler.c.obj
+                0x24001368                task_num
+ *fill*         0x24001369        0x3 
  .bss.head_handle
-                0x24001374        0x4 CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj
- .bss.led       0x24001378       0x1c CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj
-                0x24001378                led
- .bss.str.0     0x24001394        0xa CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj
- *fill*         0x2400139e        0x2 
- .bss.str.1     0x240013a0        0xa CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj
- *fill*         0x240013aa        0x2 
- .bss.buffList  0x240013ac      0x100 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj
-                0x240013ac                buffList
- *fill*         0x240014ac        0x4 
- .bss.parser    0x240014b0       0x40 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj
-                0x240014b0                parser
- .bss.wave.0    0x240014f0       0xf0 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
+                0x2400136c        0x4 CMakeFiles/ui.elf.dir/myDrivers/myButton.c.obj
+ .bss.led       0x24001370       0x1c CMakeFiles/ui.elf.dir/myDrivers/myGpio.c.obj
+                0x24001370                led
+ .bss.str.0     0x2400138c        0xa CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj
+ *fill*         0x24001396        0x2 
+ .bss.str.1     0x24001398        0xa CMakeFiles/ui.elf.dir/myDrivers/myLib.c.obj
+ *fill*         0x240013a2        0x2 
+ .bss.buffList  0x240013a4      0x100 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj
+                0x240013a4                buffList
+ *fill*         0x240014a4        0x4 
+ .bss.parser    0x240014a8       0x40 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj
+                0x240014a8                parser
+ .bss.wave.0    0x240014e8       0xf0 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
  .bss.sampling_time.1
-                0x240015e0        0x2 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
+                0x240015d8        0x2 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
  .bss.time_100ms.2
-                0x240015e2        0x2 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
- .bss.flag.3    0x240015e4        0x1 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
- *fill*         0x240015e5        0x3 
+                0x240015da        0x2 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
+ .bss.flag.3    0x240015dc        0x1 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
+ *fill*         0x240015dd        0x3 
  .bss.sine_wave
-                0x240015e8      0x2f0 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
-                0x240015e8                sine_wave
- .bss.flag.0    0x240018d8        0x3 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x240015e0      0x2f0 CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
+                0x240015e0                sine_wave
+ .bss.flag.0    0x240018d0        0x3 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
  .bss.eeprom_change
-                0x240018db        0x1 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x240018db                eeprom_change
- .bss.btn       0x240018dc        0x2 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x240018dc                btn
- *fill*         0x240018de        0x2 
- .bss.tile      0x240018e0       0x2c CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x240018e0                tile
- .bss.ui        0x2400190c       0x5c CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x2400190c                ui
- .bss.buf_len   0x24001968        0x2 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x24001968                buf_len
- *fill*         0x2400196a        0x2 
- .bss.buf_ptr   0x2400196c        0x4 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x2400196c                buf_ptr
- .bss.knob      0x24001970        0x4 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x24001970                knob
- .bss.con_win   0x24001974       0x2c CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x24001974                con_win
- .bss.win       0x240019a0       0x34 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x240019a0                win
+                0x240018d3        0x1 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x240018d3                eeprom_change
+ .bss.btn       0x240018d4        0x2 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x240018d4                btn
+ *fill*         0x240018d6        0x2 
+ .bss.tile      0x240018d8       0x2c CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x240018d8                tile
+ .bss.ui        0x24001904       0x5c CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x24001904                ui
+ .bss.buf_len   0x24001960        0x2 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x24001960                buf_len
+ *fill*         0x24001962        0x2 
+ .bss.buf_ptr   0x24001964        0x4 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x24001964                buf_ptr
+ .bss.knob      0x24001968        0x4 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x24001968                knob
+ .bss.con_win   0x2400196c       0x2c CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x2400196c                con_win
+ .bss.win       0x24001998       0x34 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x24001998                win
  .bss.check_box
-                0x240019d4       0x10 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x240019d4                check_box
- .bss.list      0x240019e4       0x74 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x240019e4                list
- .bss.u8g2      0x24001a58       0x94 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
-                0x24001a58                u8g2
- .bss.buff.0    0x24001aec       0x80 CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
+                0x240019cc       0x10 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x240019cc                check_box
+ .bss.list      0x240019dc       0x74 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x240019dc                list
+ .bss.u8g2      0x24001a50       0x94 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+                0x24001a50                u8g2
+ .bss.buff.0    0x24001ae4       0x80 CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
  .bss.show_serial_data
-                0x24001b6c       0x10 CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
-                0x24001b6c                show_serial_data
- .bss.volt      0x24001b7c      0x300 CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
-                0x24001b7c                volt
+                0x24001b64       0x10 CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
+                0x24001b64                show_serial_data
+ .bss.volt      0x24001b74      0x300 CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
+                0x24001b74                volt
  .bss.__malloc_current_mallinfo
-                0x24001e7c       0x28 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
-                0x24001e7c                __malloc_current_mallinfo
+                0x24001e74       0x28 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
+                0x24001e74                __malloc_current_mallinfo
  .bss.__malloc_max_total_mem
-                0x24001ea4        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
-                0x24001ea4                __malloc_max_total_mem
+                0x24001e9c        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
+                0x24001e9c                __malloc_max_total_mem
  .bss.__malloc_max_sbrked_mem
-                0x24001ea8        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
-                0x24001ea8                __malloc_max_sbrked_mem
+                0x24001ea0        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
+                0x24001ea0                __malloc_max_sbrked_mem
  .bss.__malloc_top_pad
-                0x24001eac        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
-                0x24001eac                __malloc_top_pad
- .bss.__sf      0x24001eb0      0x138 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o)
-                0x24001eb0                __sf
+                0x24001ea4        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-mallocr.o)
+                0x24001ea4                __malloc_top_pad
+ .bss.__sf      0x24001ea8      0x138 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o)
+                0x24001ea8                __sf
  .bss.__stdio_exit_handler
-                0x24001fe8        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o)
-                0x24001fe8                __stdio_exit_handler
- .bss.errno     0x24001fec        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-reent.o)
-                0x24001fec                errno
+                0x24001fe0        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-findfp.o)
+                0x24001fe0                __stdio_exit_handler
+ .bss.errno     0x24001fe4        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-reent.o)
+                0x24001fe4                errno
  .bss.__lock___malloc_recursive_mutex
-                0x24001ff0        0x1 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x24001ff0                __lock___malloc_recursive_mutex
- *fill*         0x24001ff1        0x3 
+                0x24001fe8        0x1 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x24001fe8                __lock___malloc_recursive_mutex
+ *fill*         0x24001fe9        0x3 
  .bss.__lock___atexit_recursive_mutex
-                0x24001ff4        0x1 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x24001ff4                __lock___atexit_recursive_mutex
- *fill*         0x24001ff5        0x3 
+                0x24001fec        0x1 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x24001fec                __lock___atexit_recursive_mutex
+ *fill*         0x24001fed        0x3 
  .bss.__lock___sfp_recursive_mutex
-                0x24001ff8        0x1 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x24001ff8                __lock___sfp_recursive_mutex
- *fill*         0x24001ff9        0x3 
- .bss.__atexit  0x24001ffc        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
-                0x24001ffc                __atexit
+                0x24001ff0        0x1 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x24001ff0                __lock___sfp_recursive_mutex
+ *fill*         0x24001ff1        0x3 
+ .bss.__atexit  0x24001ff4        0x4 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x24001ff4                __atexit
  .bss.__atexit0
-                0x24002000      0x190 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
-                0x24002000                __atexit0
+                0x24001ff8      0x190 C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
+                0x24001ff8                __atexit0
  *(COMMON)
-                0x24002190                        . = ALIGN (0x4)
-                0x24002190                        _ebss = .
-                0x24002190                        __bss_end__ = _ebss
+                0x24002188                        . = ALIGN (0x4)
+                0x24002188                        _ebss = .
+                0x24002188                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x24002190     0x2200 load address 0x08018324
-                0x24002190                        . = ALIGN (0x8)
+                0x24002188     0x2200 load address 0x08018314
+                0x24002188                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x24002190                        PROVIDE (_end = .)
-                0x24002390                        . = (. + _Min_Heap_Size)
- *fill*         0x24002190      0x200 
-                0x24004390                        . = (. + _Min_Stack_Size)
- *fill*         0x24002390     0x2000 
-                0x24004390                        . = ALIGN (0x8)
+                0x24002188                        PROVIDE (_end = .)
+                0x24002388                        . = (. + _Min_Heap_Size)
+ *fill*         0x24002188      0x200 
+                0x24004388                        . = (. + _Min_Stack_Size)
+ *fill*         0x24002388     0x2000 
+                0x24004388                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -9404,7 +9403,7 @@ LOAD C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/
 LOAD C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libm.a
 LOAD C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x57c34
+.debug_info     0x00000000    0x57c24
  .debug_info    0x00000000     0x1185 CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj
  .debug_info    0x00001185      0x907 CMakeFiles/ui.elf.dir/Core/Src/dma.c.obj
  .debug_info    0x00001a8c      0x703 CMakeFiles/ui.elf.dir/Core/Src/gpio.c.obj
@@ -9463,10 +9462,10 @@ LOAD C:/Software/Clion/Arm_GNU/14EFD8~1.2RE/bin/../lib/gcc/arm-none-eabi/14.2.1/
  .debug_info    0x0004f795      0x2aa CMakeFiles/ui.elf.dir/myDrivers/myRingBuffer.c.obj
  .debug_info    0x0004fa3f      0x6f5 CMakeFiles/ui.elf.dir/myDrivers/myStreamParser.c.obj
  .debug_info    0x00050134      0xa7b CMakeFiles/ui.elf.dir/myDrivers/myTimeIR.c.obj
- .debug_info    0x00050baf     0x3046 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
- .debug_info    0x00053bf5     0x190b CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
- .debug_info    0x00055500     0x140b CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
- .debug_info    0x0005690b     0x1329 CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj
+ .debug_info    0x00050baf     0x3036 CMakeFiles/ui.elf.dir/myGui/menu.c.obj
+ .debug_info    0x00053be5     0x190b CMakeFiles/ui.elf.dir/myGui/pageGui_serial.c.obj
+ .debug_info    0x000554f0     0x140b CMakeFiles/ui.elf.dir/myGui/pageGui_volt.c.obj
+ .debug_info    0x000568fb     0x1329 CMakeFiles/ui.elf.dir/myGui/u8g2_oled.c.obj
 
 .debug_abbrev   0x00000000     0x83a1
  .debug_abbrev  0x00000000      0x24c CMakeFiles/ui.elf.dir/Core/Src/adc.c.obj
