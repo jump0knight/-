@@ -77,7 +77,7 @@ Qt_Serial_Port_ui/
 │   ├── .idea/            # CLion配置
 │   ├── cmake/            # CMake配置
 │   ├── CMakeLists.txt    # CMake主配置
-│   └── STM32F103C8Tx_FLASH.ld # 链接脚本
+│   └── STM32H750x_FLASH.ld # 链接脚本
 └── Doc/                   # 文档
 ```
 
